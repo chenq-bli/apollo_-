@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/firstlib/include/myfun.h
+iostream
+-
+stdio.h
+-
+unistd.h
+-
+string
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+deque
+-
+queue
+-
+
+/home/michen/test/important_conditionvar_producer_consumer/libs/firstlib/src/myfun.cpp
+myfun.h
+/home/michen/test/important_conditionvar_producer_consumer/libs/firstlib/src/myfun.h
+

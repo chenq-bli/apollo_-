@@ -1,0 +1,10 @@
+module_config {
+    module_library : "/opt/apollo/neo/packages/monitor-dev/latest/lib/libmonitor.so"
+    timer_components {
+        class_name : "Monitor"
+        config {
+            name: "monitor"
+            interval: 500
+        }
+    }
+}

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libs/firstlib/include/myfun.h
+iostream
+-
+stdio.h
+-
+string
+-
+thread
+-
+mutex
+-
+
+/home/michen/apollo-edu/mytest/threadlearning/src/main.cpp
+iostream
+-
+stdio.h
+-
+unistd.h
+-
+string
+-
+thread
+-
+myfun.h
+/home/michen/apollo-edu/mytest/threadlearning/src/myfun.h
+
