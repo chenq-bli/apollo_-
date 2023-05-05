@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall  -rdynamic CMakeFiles/mycoordinate.dir/src/coordinate_transformation.cpp.o  -o mycoordinate 

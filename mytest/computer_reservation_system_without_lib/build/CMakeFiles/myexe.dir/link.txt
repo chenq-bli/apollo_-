@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall  -rdynamic CMakeFiles/myexe.dir/src/main.cpp.o CMakeFiles/myexe.dir/src/manager.cpp.o CMakeFiles/myexe.dir/src/orderfile.cpp.o CMakeFiles/myexe.dir/src/student.cpp.o CMakeFiles/myexe.dir/src/teacher.cpp.o  -o ../bin/myexe 

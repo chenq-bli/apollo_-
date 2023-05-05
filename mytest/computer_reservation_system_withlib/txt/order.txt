@@ -1,0 +1,4 @@
+date:2 interal: stuID:1 stuname:陈强 room:2 status:4 
+date:3 interal: stuID:2 stuname:文文 room:2 status:1 
+date:1 interval:1 stuID:1 stuname:陈强 room:2 status:1
+date:3 interval:2 stuID:1 stuname:陈强 room:1 status:1
