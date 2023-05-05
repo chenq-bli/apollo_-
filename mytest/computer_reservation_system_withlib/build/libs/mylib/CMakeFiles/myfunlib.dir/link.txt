@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmyfunlib.a  CMakeFiles/myfunlib.dir/src/manager.cpp.o CMakeFiles/myfunlib.dir/src/orderfile.cpp.o CMakeFiles/myfunlib.dir/src/student.cpp.o CMakeFiles/myfunlib.dir/src/teacher.cpp.o
-/usr/bin/ranlib libmyfunlib.a

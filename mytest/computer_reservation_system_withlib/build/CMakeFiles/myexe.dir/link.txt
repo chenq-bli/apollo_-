@@ -1,1 +1,0 @@
-/usr/bin/c++   -g -Wall  -rdynamic CMakeFiles/myexe.dir/src/main.cpp.o  -o myexe  libs/mylib/libmyfunlib.a 
