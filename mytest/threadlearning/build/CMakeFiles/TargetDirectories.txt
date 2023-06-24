@@ -1,6 +1,0 @@
-/home/michen/Documents/Apollo_learning/code_detail/mytest/threadlearning/build/CMakeFiles/rebuild_cache.dir
-/home/michen/Documents/Apollo_learning/code_detail/mytest/threadlearning/build/CMakeFiles/edit_cache.dir
-/home/michen/Documents/Apollo_learning/code_detail/mytest/threadlearning/build/CMakeFiles/myexe.dir
-/home/michen/Documents/Apollo_learning/code_detail/mytest/threadlearning/build/libs/firstlib/CMakeFiles/rebuild_cache.dir
-/home/michen/Documents/Apollo_learning/code_detail/mytest/threadlearning/build/libs/firstlib/CMakeFiles/edit_cache.dir
-/home/michen/Documents/Apollo_learning/code_detail/mytest/threadlearning/build/libs/firstlib/CMakeFiles/myfunlib.dir

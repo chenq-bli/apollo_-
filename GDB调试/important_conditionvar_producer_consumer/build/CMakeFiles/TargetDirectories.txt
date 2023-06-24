@@ -1,6 +1,0 @@
-/home/michen/test/important_conditionvar_producer_consumer/build/CMakeFiles/rebuild_cache.dir
-/home/michen/test/important_conditionvar_producer_consumer/build/CMakeFiles/edit_cache.dir
-/home/michen/test/important_conditionvar_producer_consumer/build/CMakeFiles/myexe.dir
-/home/michen/test/important_conditionvar_producer_consumer/build/libs/firstlib/CMakeFiles/rebuild_cache.dir
-/home/michen/test/important_conditionvar_producer_consumer/build/libs/firstlib/CMakeFiles/edit_cache.dir
-/home/michen/test/important_conditionvar_producer_consumer/build/libs/firstlib/CMakeFiles/myfunlib.dir

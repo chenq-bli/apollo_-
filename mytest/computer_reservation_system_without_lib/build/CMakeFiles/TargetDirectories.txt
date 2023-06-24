@@ -1,3 +1,0 @@
-/home/michen/Documents/Apollo_learning/code_detail/mytest/computer_reservation_system_without_lib/build/CMakeFiles/rebuild_cache.dir
-/home/michen/Documents/Apollo_learning/code_detail/mytest/computer_reservation_system_without_lib/build/CMakeFiles/edit_cache.dir
-/home/michen/Documents/Apollo_learning/code_detail/mytest/computer_reservation_system_without_lib/build/CMakeFiles/myexe.dir

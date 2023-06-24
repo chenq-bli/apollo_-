@@ -1,3 +1,0 @@
-/home/michen/test/solider_gun/build/CMakeFiles/rebuild_cache.dir
-/home/michen/test/solider_gun/build/CMakeFiles/edit_cache.dir
-/home/michen/test/solider_gun/build/CMakeFiles/myexe.dir

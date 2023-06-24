@@ -1,1 +1,0 @@
-/usr/bin/c++   -g -Wall  -rdynamic CMakeFiles/myexe.dir/src/main.cpp.o CMakeFiles/myexe.dir/src/myfun.cpp.o  -o myexe  -lpthread 
