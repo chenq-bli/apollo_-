@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/StudentManager.h
+iostream
+-
+memory
+-
+thread
+-
+string
+-
+string
+-
+string.h
+-
+cmath
+-
+cmath
+-
+mysql/mysql.h
+-
+algorithm
+-
+vector
+-
+absl/strings/str_cat.h
+../include/absl/strings/str_cat.h
+
+/home/michen/Documents/Apollo_learning/code_detail/mytest/stdout_debug/src/StudentManager.cpp
+StudentManager.h
+/home/michen/Documents/Apollo_learning/code_detail/mytest/stdout_debug/src/StudentManager.h
+
+/home/michen/Documents/Apollo_learning/code_detail/mytest/stdout_debug/src/main.cpp
+StudentManager.h
+/home/michen/Documents/Apollo_learning/code_detail/mytest/stdout_debug/src/StudentManager.h
+

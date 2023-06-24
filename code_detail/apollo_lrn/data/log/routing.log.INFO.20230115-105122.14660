@@ -1,0 +1,9 @@
+Log file created at: 2023/01/15 10:51:22
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0115 10:51:22.125420 14660 class_loader_utility.h:79] registerclass:RoutingComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/routing/librouting_component.so
+I0115 10:51:22.131520 14660 routing_component.cc:35] Config file: /apollo/modules/routing/conf/routing_config.pb.txt is loaded.
+I0115 10:51:22.134522 14660 routing.cc:40] Use routing topology graph path: /apollo/modules/map/data/sunnyvale_big_loop/routing_map.bin
+I0115 10:51:22.241771 14660 topo_graph.cc:83] Load Topo data successful.
+I0115 10:51:22.241794 14660 navigator.cc:111] The navigator is ready.
+I0115 10:51:24.206646 14660 routing.cc:55] Routing service is ready.

@@ -1,0 +1,48 @@
+Log file created at: 2023/01/15 10:51:15
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0115 10:51:15.541049 14444 scheduler_factory.cc:63] Scheduler conf named /apollo/cyber/conf/mainboard_default.conf not found, use default.
+I0115 10:51:15.541194 14446 processor.cc:42] processor_tid: 14446
+I0115 10:51:15.541369 14447 processor.cc:42] processor_tid: 14447
+I0115 10:51:15.541448 14448 processor.cc:42] processor_tid: 14448
+I0115 10:51:15.541550 14450 processor.cc:42] processor_tid: 14450
+I0115 10:51:15.541535 14449 processor.cc:42] processor_tid: 14449
+I0115 10:51:15.541620 14451 processor.cc:42] processor_tid: 14451
+I0115 10:51:15.541695 14452 processor.cc:42] processor_tid: 14452
+I0115 10:51:15.541711 14453 processor.cc:42] processor_tid: 14453
+I0115 10:51:15.541740 14454 processor.cc:42] processor_tid: 14454
+I0115 10:51:15.541766 14455 processor.cc:42] processor_tid: 14455
+I0115 10:51:15.541790 14456 processor.cc:42] processor_tid: 14456
+I0115 10:51:15.541898 14457 processor.cc:42] processor_tid: 14457
+I0115 10:51:15.541922 14458 processor.cc:42] processor_tid: 14458
+I0115 10:51:15.542011 14459 processor.cc:42] processor_tid: 14459
+I0115 10:51:15.542032 14460 processor.cc:42] processor_tid: 14460
+I0115 10:51:15.542057 14461 processor.cc:42] processor_tid: 14461
+I0115 10:51:15.542066 14444 init.cc:113] Register exit handle succ.
+I0115 10:51:15.542827 14444 module_controller.cc:65] Start initialize dag: /apollo/modules/planning/dag/planning.dag
+I0115 10:51:15.543255 14444 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/planning/libplanning_component.so
+I0115 10:51:18.226639 14444 scheduler.cc:55] create croutine: /internal/task0
+I0115 10:51:18.226696 14444 scheduler.cc:55] create croutine: /internal/task1
+I0115 10:51:18.226708 14444 scheduler.cc:55] create croutine: /internal/task2
+I0115 10:51:18.226718 14444 scheduler.cc:55] create croutine: /internal/task3
+I0115 10:51:18.226727 14444 scheduler.cc:55] create croutine: /internal/task4
+I0115 10:51:18.226733 14444 scheduler.cc:55] create croutine: /internal/task5
+I0115 10:51:18.226739 14444 scheduler.cc:55] create croutine: /internal/task6
+I0115 10:51:18.226852 14444 scheduler.cc:55] create croutine: /internal/task7
+I0115 10:51:18.226876 14444 scheduler.cc:55] create croutine: /internal/task8
+I0115 10:51:18.226886 14444 scheduler.cc:55] create croutine: /internal/task9
+I0115 10:51:18.226894 14444 scheduler.cc:55] create croutine: /internal/task10
+I0115 10:51:18.226904 14444 scheduler.cc:55] create croutine: /internal/task11
+I0115 10:51:18.226909 14444 scheduler.cc:55] create croutine: /internal/task12
+I0115 10:51:18.226918 14444 scheduler.cc:55] create croutine: /internal/task13
+I0115 10:51:18.226924 14444 scheduler.cc:55] create croutine: /internal/task14
+I0115 10:51:18.227128 14444 scheduler.cc:55] create croutine: /internal/task15
+I0115 10:51:18.233217 14444 scheduler.cc:55] create croutine: planning_/apollo/routing_response
+I0115 10:51:18.234215 14444 scheduler.cc:55] create croutine: planning_/apollo/perception/traffic_light
+I0115 10:51:18.234676 14444 scheduler.cc:55] create croutine: planning_/apollo/planning/pad
+I0115 10:51:18.235186 14444 scheduler.cc:55] create croutine: planning_/apollo/storytelling
+I0115 10:51:18.265251 14444 scheduler.cc:55] create croutine: planning_/apollo/canbus/chassis
+I0115 10:51:18.266099 14444 scheduler.cc:55] create croutine: planning_/apollo/localization/pose
+I0115 10:51:18.267568 14444 scheduler.cc:55] create croutine: planning_/apollo/prediction
+I0115 10:51:18.268476 14444 scheduler.cc:55] create croutine: planning
+I0115 10:52:00.710054 14455 segment.cc:51] msg_size: 52449 larger than current shm_buffer_size: 16384 , need recreate.

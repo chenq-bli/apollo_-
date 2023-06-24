@@ -1,0 +1,42 @@
+Log file created at: 2023/01/15 10:51:20
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0115 10:51:20.383545 14623 scheduler_factory.cc:63] Scheduler conf named /apollo/cyber/conf/mainboard_default.conf not found, use default.
+I0115 10:51:20.383774 14625 processor.cc:42] processor_tid: 14625
+I0115 10:51:20.383864 14626 processor.cc:42] processor_tid: 14626
+I0115 10:51:20.383935 14627 processor.cc:42] processor_tid: 14627
+I0115 10:51:20.384011 14628 processor.cc:42] processor_tid: 14628
+I0115 10:51:20.384083 14629 processor.cc:42] processor_tid: 14629
+I0115 10:51:20.384148 14630 processor.cc:42] processor_tid: 14630
+I0115 10:51:20.384184 14631 processor.cc:42] processor_tid: 14631
+I0115 10:51:20.384258 14632 processor.cc:42] processor_tid: 14632
+I0115 10:51:20.384277 14633 processor.cc:42] processor_tid: 14633
+I0115 10:51:20.384346 14634 processor.cc:42] processor_tid: 14634
+I0115 10:51:20.384413 14635 processor.cc:42] processor_tid: 14635
+I0115 10:51:20.384443 14636 processor.cc:42] processor_tid: 14636
+I0115 10:51:20.384519 14637 processor.cc:42] processor_tid: 14637
+I0115 10:51:20.384589 14638 processor.cc:42] processor_tid: 14638
+I0115 10:51:20.384614 14639 processor.cc:42] processor_tid: 14639
+I0115 10:51:20.384662 14640 processor.cc:42] processor_tid: 14640
+I0115 10:51:20.384670 14623 init.cc:113] Register exit handle succ.
+I0115 10:51:20.387199 14623 module_controller.cc:65] Start initialize dag: /apollo/modules/routing/dag/routing.dag
+I0115 10:51:20.387826 14623 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/routing/librouting_component.so
+I0115 10:51:20.562366 14623 timer.cc:137] start timer [0]
+I0115 10:51:21.562687 14648 scheduler.cc:55] create croutine: /internal/task0
+I0115 10:51:21.562760 14648 scheduler.cc:55] create croutine: /internal/task1
+I0115 10:51:21.562778 14648 scheduler.cc:55] create croutine: /internal/task2
+I0115 10:51:21.562791 14648 scheduler.cc:55] create croutine: /internal/task3
+I0115 10:51:21.562829 14648 scheduler.cc:55] create croutine: /internal/task4
+I0115 10:51:21.562839 14648 scheduler.cc:55] create croutine: /internal/task5
+I0115 10:51:21.562858 14648 scheduler.cc:55] create croutine: /internal/task6
+I0115 10:51:21.562875 14648 scheduler.cc:55] create croutine: /internal/task7
+I0115 10:51:21.562882 14648 scheduler.cc:55] create croutine: /internal/task8
+I0115 10:51:21.562891 14648 scheduler.cc:55] create croutine: /internal/task9
+I0115 10:51:21.562898 14648 scheduler.cc:55] create croutine: /internal/task10
+I0115 10:51:21.562906 14648 scheduler.cc:55] create croutine: /internal/task11
+I0115 10:51:21.562914 14648 scheduler.cc:55] create croutine: /internal/task12
+I0115 10:51:21.562923 14648 scheduler.cc:55] create croutine: /internal/task13
+I0115 10:51:21.562932 14648 scheduler.cc:55] create croutine: /internal/task14
+I0115 10:51:21.562938 14648 scheduler.cc:55] create croutine: /internal/task15
+I0115 10:51:22.620879 14623 scheduler.cc:55] create croutine: routing_/apollo/routing_request
+I0115 10:51:22.621300 14623 scheduler.cc:55] create croutine: routing

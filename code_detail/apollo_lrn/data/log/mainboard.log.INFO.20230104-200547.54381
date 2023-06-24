@@ -1,0 +1,289 @@
+Log file created at: 2023/01/04 20:05:47
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0104 20:05:47.494590 54381 scheduler_factory.cc:63] Scheduler conf named /apollo/cyber/conf/monitor.conf not found, use default.
+I0104 20:05:47.494832 54384 processor.cc:42] processor_tid: 54384
+I0104 20:05:47.494972 54385 processor.cc:42] processor_tid: 54385
+I0104 20:05:47.495100 54386 processor.cc:42] processor_tid: 54386
+I0104 20:05:47.495218 54387 processor.cc:42] processor_tid: 54387
+I0104 20:05:47.495288 54388 processor.cc:42] processor_tid: 54388
+I0104 20:05:47.495383 54389 processor.cc:42] processor_tid: 54389
+I0104 20:05:47.495494 54390 processor.cc:42] processor_tid: 54390
+I0104 20:05:47.495622 54391 processor.cc:42] processor_tid: 54391
+I0104 20:05:47.495640 54392 processor.cc:42] processor_tid: 54392
+I0104 20:05:47.495777 54393 processor.cc:42] processor_tid: 54393
+I0104 20:05:47.495851 54394 processor.cc:42] processor_tid: 54394
+I0104 20:05:47.495971 54395 processor.cc:42] processor_tid: 54395
+I0104 20:05:47.496102 54396 processor.cc:42] processor_tid: 54396
+I0104 20:05:47.496228 54397 processor.cc:42] processor_tid: 54397
+I0104 20:05:47.496299 54398 processor.cc:42] processor_tid: 54398
+I0104 20:05:47.496446 54381 init.cc:113] Register exit handle succ.
+I0104 20:05:47.496448 54399 processor.cc:42] processor_tid: 54399
+I0104 20:05:47.497092 54381 module_controller.cc:65] Start initialize dag: /apollo/modules/monitor/dag/monitor.dag
+I0104 20:05:47.497339 54381 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/monitor/libmonitor.so
+I0104 20:05:47.732388 54381 timer.cc:137] start timer [0]
+I0104 20:05:48.232801 54407 scheduler.cc:55] create croutine: /internal/task0
+I0104 20:05:48.232875 54407 scheduler.cc:55] create croutine: /internal/task1
+I0104 20:05:48.232887 54407 scheduler.cc:55] create croutine: /internal/task2
+I0104 20:05:48.232897 54407 scheduler.cc:55] create croutine: /internal/task3
+I0104 20:05:48.232903 54407 scheduler.cc:55] create croutine: /internal/task4
+I0104 20:05:48.232909 54407 scheduler.cc:55] create croutine: /internal/task5
+I0104 20:05:48.232915 54407 scheduler.cc:55] create croutine: /internal/task6
+I0104 20:05:48.232937 54407 scheduler.cc:55] create croutine: /internal/task7
+I0104 20:05:48.232944 54407 scheduler.cc:55] create croutine: /internal/task8
+I0104 20:05:48.232951 54407 scheduler.cc:55] create croutine: /internal/task9
+I0104 20:05:48.232959 54407 scheduler.cc:55] create croutine: /internal/task10
+I0104 20:05:48.233048 54407 scheduler.cc:55] create croutine: /internal/task11
+I0104 20:05:48.233060 54407 scheduler.cc:55] create croutine: /internal/task12
+I0104 20:05:48.233068 54407 scheduler.cc:55] create croutine: /internal/task13
+I0104 20:05:48.233079 54407 scheduler.cc:55] create croutine: /internal/task14
+I0104 20:05:48.233084 54407 scheduler.cc:55] create croutine: /internal/task15
+I0104 20:05:48.234562 54386 scheduler.cc:55] create croutine: monitor_/apollo/hmi/status
+I0104 20:05:49.237879 54389 scheduler.cc:55] create croutine: monitor_/apollo/canbus/chassis
+I0104 20:05:49.239440 54389 scheduler.cc:55] create croutine: monitor_/apollo/sensor/gnss/best_pose
+I0104 20:05:49.242142 54389 scheduler.cc:55] create croutine: monitor_/apollo/localization/msf_status
+I0104 20:05:49.245355 54389 scheduler.cc:55] create croutine: monitor_/apollo/common/latency_records
+I0104 20:05:49.246623 54389 scheduler.cc:55] create croutine: monitor_/apollo/sensor/lidar128/compensator/PointCloud2
+W0104 20:06:04.234602 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:08.734715 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:10.734517 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:13.234640 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:13.734583 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:15.734465 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:24.234622 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:26.234591 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:27.234556 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:28.734617 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:30.734611 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:34.734441 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:39.734606 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:46.234557 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:48.735366 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:50.234463 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:50.734447 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:52.234941 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:52.734547 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:53.234741 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:53.734413 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:55.234448 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:58.734469 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:06:59.234958 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:07:09.234686 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:07:10.234455 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:07:14.234512 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:07:19.734575 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:07:23.734442 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:07:24.234464 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:07:28.232489 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:07:36.734709 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:08:02.232434 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:08:08.234472 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:08:14.734606 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:08:17.234705 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:08:30.734496 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:08:34.734452 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:08:39.234711 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:09:01.734477 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:09:20.234418 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:09:30.734479 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:09:37.234527 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:09:37.734500 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:09:39.734455 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:09:44.234504 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:09:49.234696 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:09:53.234458 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:09:55.234707 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:09:57.234581 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:01.234449 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:05.234541 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:05.732409 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:17.734424 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:29.234530 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:29.734519 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:32.234517 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:37.234433 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:37.735034 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:45.234472 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:45.734432 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:47.734671 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:10:59.232503 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:11:09.234551 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:11:19.234939 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:11:59.234540 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:12:01.234817 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:12:03.235040 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:12:11.234846 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:12:15.234686 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:12:19.234548 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:12:27.234793 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:12:33.234577 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:12:37.234477 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:12:38.234592 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:12:51.234750 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:12:55.234508 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:13:33.234617 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:13:41.234644 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:13:53.234642 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:14:03.234544 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:14:11.235283 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:14:15.234524 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:14:24.734611 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:14:30.234714 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:14:33.234503 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:14:35.234501 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:14:38.234449 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:14:53.234941 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:14:55.234530 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:14:56.734772 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:02.734475 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:04.234673 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:05.234560 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:08.734611 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:10.234928 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:13.734519 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:18.234865 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:18.734437 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:20.234884 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:21.234429 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:25.734931 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:28.234668 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:30.734522 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:39.734802 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:49.234562 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:50.734572 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:51.234423 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:51.734810 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:53.234504 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:55.234529 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:55.734618 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:57.234433 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:15:58.734928 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:00.234789 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:00.734619 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:07.735000 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:13.234458 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:15.232448 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:20.734575 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:23.234413 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:24.734500 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:25.234539 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:25.734495 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:26.734516 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:27.234571 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:30.234475 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:36.734639 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:37.234815 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:44.734473 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:45.734442 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:47.734509 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:48.734524 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:50.735350 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:51.234481 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:52.234494 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:16:56.234423 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:00.234900 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:01.234748 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:02.234480 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:02.734695 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:04.235005 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:05.735078 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:09.734413 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:14.234426 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:16.234897 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:17.234509 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:20.234499 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:21.234508 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:21.734555 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:23.234709 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:26.734412 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:27.234407 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:28.734798 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:30.234424 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:31.234596 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:32.734683 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:35.234463 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:36.234742 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:36.734587 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:37.734601 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:39.234565 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:40.734572 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:43.734449 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:45.234483 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:47.734463 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:48.234694 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:48.734418 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:17:57.234799 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:20.734946 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:21.734642 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:23.232580 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:24.734513 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:24.787328 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:25.234493 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:26.734452 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:29.734460 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:30.734519 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:33.734891 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:35.234479 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:38.234879 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:38.732411 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:39.734501 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:41.734829 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:46.734632 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:47.232600 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:49.734740 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:52.735162 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:55.734912 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:18:59.734517 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:00.234508 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:02.735244 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:03.234838 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:05.734675 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:14.734540 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:19.734418 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:20.734628 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:25.734514 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:26.234524 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:27.234498 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:27.734449 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:31.734784 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:32.734465 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:33.235178 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:33.734510 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:34.734619 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:35.734416 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:39.734616 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:45.734663 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:49.234829 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:49.734661 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:51.234431 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:51.734423 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:52.234509 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:55.234601 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:55.734508 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:56.232621 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:56.734606 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:58.234437 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:19:59.734629 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:01.234417 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:01.734462 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:07.234521 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:07.734624 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:09.734750 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:11.734828 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:12.234840 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:12.732735 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:14.234575 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:16.734592 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:17.734421 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:19.734411 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:20.234634 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:25.234475 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:29.234655 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:20:43.234524 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:21:33.234683 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:22:15.232417 54407 rate.cc:96] Detect forward jumps in time
+I0104 20:22:43.235621 54397 scheduler.cc:55] create croutine: monitor_/apollo/sensor/lidar16/compensator/PointCloud2
+W0104 20:23:05.950691 54407 rate.cc:96] Detect forward jumps in time
+W0104 20:23:05.956303 54407 rate.cc:96] Detect forward jumps in time
+I0104 20:33:59.016968 54381 timer.cc:144] stop timer, the timer_id: 0
+I0104 20:33:59.017134 54381 mainboard.cc:45] exit mainboard.

@@ -1,0 +1,907 @@
+Log file created at: 2023/01/04 20:05:47
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0104 20:05:47.729583 54381 hmi_worker.cc:178] Loaded HMI config: modes {
+  key: "Camera-Lidar Sensor Calibration"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/camera-Lidar_sensor_calibration.pb.txt"
+}
+modes {
+  key: "Car Teleop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/car_teleop.pb.txt"
+}
+modes {
+  key: "Console Teleop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/console_teleop.pb.txt"
+}
+modes {
+  key: "Dev Kit Close Loop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/dev_kit_close_loop.pb.txt"
+}
+modes {
+  key: "Dev Kit Debug"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/dev_kit_debug.pb.txt"
+}
+modes {
+  key: "Ipc1 Mkz Close Loop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc1_mkz_close_loop.pb.txt"
+}
+modes {
+  key: "Ipc1 Mkz Standard Debug"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc1_mkz_standard_debug.pb.txt"
+}
+modes {
+  key: "Ipc2 Mkz Close Loop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc2_mkz_close_loop.pb.txt"
+}
+modes {
+  key: "Ipc2 Mkz Standard Debug"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc2_mkz_standard_debug.pb.txt"
+}
+modes {
+  key: "Lidar-IMU Sensor Calibration"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/lidar-IMU_sensor_calibration.pb.txt"
+}
+modes {
+  key: "Map Collection"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/map_collection.pb.txt"
+}
+modes {
+  key: "Mkz 64beam"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_64beam.pb.txt"
+}
+modes {
+  key: "Mkz Close Loop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_close_loop.pb.txt"
+}
+modes {
+  key: "Mkz Lgsvl"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_lgsvl.pb.txt"
+}
+modes {
+  key: "Mkz Standard Debug"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_standard_debug.pb.txt"
+}
+modes {
+  key: "Mkz Standard Debug Hesai"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_standard_debug_hesai.pb.txt"
+}
+modes {
+  key: "Mkz Standard Debug Smart Recorder"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_standard_debug_smart_recorder.pb.txt"
+}
+modes {
+  key: "Navigation"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/navigation.pb.txt"
+}
+modes {
+  key: "Rtk"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/rtk.pb.txt"
+}
+modes {
+  key: "Vehicle Calibration"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/vehicle_calibration.pb.txt"
+}
+maps {
+  key: "Apollo Virutal Map"
+  value: "/apollo/modules/map/data/apollo_virutal_map"
+}
+maps {
+  key: "Borregas Ave"
+  value: "/apollo/modules/map/data/borregas_ave"
+}
+maps {
+  key: "Demo"
+  value: "/apollo/modules/map/data/demo"
+}
+maps {
+  key: "San Mateo"
+  value: "/apollo/modules/map/data/san_mateo"
+}
+maps {
+  key: "Sunnyvale Big Loop"
+  value: "/apollo/modules/map/data/sunnyvale_big_loop"
+}
+maps {
+  key: "Sunnyvale Loop"
+  value: "/apollo/modules/map/data/sunnyvale_loop"
+}
+maps {
+  key: "Sunnyvale With Two Offices"
+  value: "/apollo/modules/map/data/sunnyvale_with_two_offices"
+}
+vehicles {
+  key: "Apollo Perception Test Bev"
+  value: "/apollo/modules/calibration/data/apollo_perception_test_bev"
+}
+vehicles {
+  key: "Lincoln2017MKZ LGSVL"
+  value: "/apollo/modules/calibration/data/Lincoln2017MKZ_LGSVL"
+}
+vehicles {
+  key: "Mkz Example"
+  value: "/apollo/modules/calibration/data/mkz_example"
+}
+vehicles {
+  key: "Perception Test V1"
+  value: "/apollo/modules/calibration/data/perception_test_v1"
+}
+I0104 20:05:49.234200 54389 hmi_worker.cc:218] Loaded HMI mode: modules {
+  key: "AudioDetection"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/audio/dag/audio.dag &"
+    stop_command: "pkill -f \"/apollo/modules/audio/dag/audio.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/audio/dag/audio.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Camera"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/camera/dag/camera.dag -d /apollo/modules/drivers/video/dag/video.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/camera/dag/camera.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/camera/dag/camera.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Canbus"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/canbus/dag/canbus.dag &"
+    stop_command: "pkill -f \"/apollo/modules/canbus/dag/canbus.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/canbus/dag/canbus.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Control"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/control/dag/control.dag &"
+    stop_command: "pkill -f \"/apollo/modules/control/dag/control.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/control/dag/control.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "GPS"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/gnss/dag/gnss.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/gnss/dag/gnss.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/gnss/dag/gnss.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Guardian"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/guardian/dag/guardian.dag &"
+    stop_command: "pkill -f \"/apollo/modules/guardian/dag/guardian.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/guardian/dag/guardian.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Localization"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/localization/dag/dag_streaming_msf_localization.dag &"
+    stop_command: "pkill -f \"/apollo/modules/localization/dag/dag_streaming_msf_localization.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/localization/dag/dag_streaming_msf_localization.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Microphone"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/microphone/dag/microphone.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/microphone/dag/microphone.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/microphone/dag/microphone.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Perception"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception.dag &"
+    stop_command: "pkill -f \"/apollo/modules/perception/production/dag/dag_streaming_perception.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/perception/production/dag/dag_streaming_perception.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Planning"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/planning/dag/planning.dag &"
+    stop_command: "pkill -f \"/apollo/modules/planning/dag/planning.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/planning/dag/planning.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Prediction"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/prediction/dag/prediction.dag &"
+    stop_command: "pkill -f \"/apollo/modules/prediction/dag/prediction.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/prediction/dag/prediction.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Radar"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Recorder"
+  value {
+    start_command: "/apollo/scripts/record_bag.py --start --all"
+    stop_command: "/apollo/scripts/record_bag.py --stop --stop_signal SIGINT"
+    process_monitor_config {
+      command_keywords: "cyber_recorder record"
+    }
+  }
+}
+modules {
+  key: "Routing"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/routing/dag/routing.dag &"
+    stop_command: "pkill -f \"/apollo/modules/routing/dag/routing.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/routing/dag/routing.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Storytelling"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/storytelling/dag/storytelling.dag &"
+    stop_command: "pkill -f \"/apollo/modules/storytelling/dag/storytelling.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/storytelling/dag/storytelling.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Traffic Light"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag &"
+    stop_command: "pkill -f \"/apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Transform"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/transform/dag/static_transform.dag &"
+    stop_command: "pkill -f \"/apollo/modules/transform/dag/static_transform.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/transform/dag/static_transform.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Velodyne"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/velodyne/dag/velodyne.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/velodyne/dag/velodyne.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/velodyne/dag/velodyne.dag"
+    }
+    required_for_safety: true
+  }
+}
+monitored_components {
+  key: "GPS"
+  value {
+    process {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/gnss/dag/gnss.dag"
+    }
+  }
+}
+monitored_components {
+  key: "Lidar 128"
+  value {
+    channel {
+      name: "/apollo/sensor/lidar128/compensator/PointCloud2"
+    }
+  }
+}
+monitored_components {
+  key: "Localization"
+  value {
+  }
+}
+monitored_components {
+  key: "Recorder"
+  value {
+    process {
+      command_keywords: "cyber_recorder record"
+    }
+    resource {
+      disk_spaces {
+        path: "/apollo/data"
+        insufficient_space_warning: 8
+        insufficient_space_error: 2
+      }
+      disk_spaces {
+        path: "/media/apollo/internal_nvme"
+        insufficient_space_warning: 128
+        insufficient_space_error: 32
+      }
+    }
+  }
+}
+I0104 20:22:41.234097 54396 hmi_worker.cc:218] Loaded HMI mode: modules {
+  key: "Camera"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/camera/dag/dev_kit_camera.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/camera/dag/dev_kit_camera.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/camera/dag/dev_kit_camera.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Camera Perception"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_dev_kit_camera.dag &"
+    stop_command: "pkill -f \"/apollo/modules/perception/production/dag/dag_streaming_perception_dev_kit_camera.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/perception/production/dag/dag_streaming_perception_dev_kit_camera.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Canbus"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/canbus/dag/canbus.dag &"
+    stop_command: "pkill -f \"/apollo/modules/canbus/dag/canbus.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/canbus/dag/canbus.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Control"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/control/dag/control.dag &"
+    stop_command: "pkill -f \"/apollo/modules/control/dag/control.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/control/dag/control.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "GPS"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/gnss/dag/gnss.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/gnss/dag/gnss.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/gnss/dag/gnss.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Guardian"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/guardian/dag/guardian.dag &"
+    stop_command: "pkill -f \"/apollo/modules/guardian/dag/guardian.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/guardian/dag/guardian.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Lidar"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/lidar/dag/lidar.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/lidar/dag/lidar.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/lidar/dag/lidar.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Lidar Perception"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_dev_kit_lidar.dag &"
+    stop_command: "pkill -f \"/apollo/modules/perception/production/dag/dag_streaming_perception_dev_kit_lidar.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/perception/production/dag/dag_streaming_perception_dev_kit_lidar.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Localization"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/localization/dag/dag_streaming_rtk_localization.dag &"
+    stop_command: "pkill -f \"/apollo/modules/localization/dag/dag_streaming_rtk_localization.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/localization/dag/dag_streaming_rtk_localization.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Planning"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/planning/dag/planning.dag &"
+    stop_command: "pkill -f \"/apollo/modules/planning/dag/planning.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/planning/dag/planning.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Prediction"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/prediction/dag/prediction.dag &"
+    stop_command: "pkill -f \"/apollo/modules/prediction/dag/prediction.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/prediction/dag/prediction.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Radar"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Recorder"
+  value {
+    start_command: "/apollo/scripts/record_bag.py --start --all"
+    stop_command: "/apollo/scripts/record_bag.py --stop --stop_signal SIGINT"
+    process_monitor_config {
+      command_keywords: "cyber_recorder record"
+    }
+  }
+}
+modules {
+  key: "Routing"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/routing/dag/routing.dag &"
+    stop_command: "pkill -f \"/apollo/modules/routing/dag/routing.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/routing/dag/routing.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "SmarterEye"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/smartereye/dag/smartereye.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/smartereye/dag/smartereye.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/smartereye/dag/smartereye.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "TaskManager"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/task_manager/dag/task_manager.dag &"
+    stop_command: "pkill -f \"/apollo/modules/task_manager/dag/task_manager.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/task_manager/dag/task_manager.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Third Party Perception"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/third_party_perception/dag/third_party_perception.dag &"
+    stop_command: "pkill -f \"/apollo/modules/third_party_perception/dag/third_party_perception.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/third_party_perception/dag/third_party_perception.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Traffic Light"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag &"
+    stop_command: "pkill -f \"/apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Transform"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/transform/dag/static_transform.dag &"
+    stop_command: "pkill -f \"/apollo/modules/transform/dag/static_transform.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/transform/dag/static_transform.dag"
+    }
+    required_for_safety: true
+  }
+}
+monitored_components {
+  key: "GNSS"
+  value {
+    process {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/gnss/dag/gnss.dag"
+    }
+  }
+}
+monitored_components {
+  key: "Lidar 16"
+  value {
+    channel {
+      name: "/apollo/sensor/lidar16/compensator/PointCloud2"
+    }
+  }
+}
+monitored_components {
+  key: "Localization"
+  value {
+  }
+}
+monitored_components {
+  key: "Recorder"
+  value {
+    process {
+      command_keywords: "cyber_recorder record"
+    }
+    resource {
+      disk_spaces {
+        path: "/apollo/data"
+        insufficient_space_warning: 8
+        insufficient_space_error: 2
+      }
+      disk_spaces {
+        path: "/media/apollo/internal_nvme"
+        insufficient_space_warning: 128
+        insufficient_space_error: 32
+      }
+    }
+  }
+}
+I0104 20:22:50.736274 54385 hmi_worker.cc:218] Loaded HMI mode: modules {
+  key: "AudioDetection"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/audio/dag/audio.dag &"
+    stop_command: "pkill -f \"/apollo/modules/audio/dag/audio.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/audio/dag/audio.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Camera"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/camera/dag/camera.dag -d /apollo/modules/drivers/video/dag/video.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/camera/dag/camera.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/camera/dag/camera.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Canbus"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/canbus/dag/canbus.dag &"
+    stop_command: "pkill -f \"/apollo/modules/canbus/dag/canbus.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/canbus/dag/canbus.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Control"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/control/dag/control.dag &"
+    stop_command: "pkill -f \"/apollo/modules/control/dag/control.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/control/dag/control.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "GPS"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/gnss/dag/gnss.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/gnss/dag/gnss.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/gnss/dag/gnss.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Guardian"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/guardian/dag/guardian.dag &"
+    stop_command: "pkill -f \"/apollo/modules/guardian/dag/guardian.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/guardian/dag/guardian.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Localization"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/localization/dag/dag_streaming_msf_localization.dag &"
+    stop_command: "pkill -f \"/apollo/modules/localization/dag/dag_streaming_msf_localization.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/localization/dag/dag_streaming_msf_localization.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Microphone"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/microphone/dag/microphone.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/microphone/dag/microphone.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/microphone/dag/microphone.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Perception"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception.dag &"
+    stop_command: "pkill -f \"/apollo/modules/perception/production/dag/dag_streaming_perception.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/perception/production/dag/dag_streaming_perception.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Planning"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/planning/dag/planning.dag &"
+    stop_command: "pkill -f \"/apollo/modules/planning/dag/planning.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/planning/dag/planning.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Prediction"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/prediction/dag/prediction.dag &"
+    stop_command: "pkill -f \"/apollo/modules/prediction/dag/prediction.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/prediction/dag/prediction.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Radar"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Recorder"
+  value {
+    start_command: "/apollo/scripts/record_bag.py --start --all"
+    stop_command: "/apollo/scripts/record_bag.py --stop --stop_signal SIGINT"
+    process_monitor_config {
+      command_keywords: "cyber_recorder record"
+    }
+  }
+}
+modules {
+  key: "Routing"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/routing/dag/routing.dag &"
+    stop_command: "pkill -f \"/apollo/modules/routing/dag/routing.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/routing/dag/routing.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Storytelling"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/storytelling/dag/storytelling.dag &"
+    stop_command: "pkill -f \"/apollo/modules/storytelling/dag/storytelling.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/storytelling/dag/storytelling.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Traffic Light"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag &"
+    stop_command: "pkill -f \"/apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Transform"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/transform/dag/static_transform.dag &"
+    stop_command: "pkill -f \"/apollo/modules/transform/dag/static_transform.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/transform/dag/static_transform.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Velodyne"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/velodyne/dag/velodyne.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/velodyne/dag/velodyne.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/velodyne/dag/velodyne.dag"
+    }
+    required_for_safety: true
+  }
+}
+monitored_components {
+  key: "GPS"
+  value {
+    process {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/gnss/dag/gnss.dag"
+    }
+  }
+}
+monitored_components {
+  key: "Lidar 128"
+  value {
+    channel {
+      name: "/apollo/sensor/lidar128/compensator/PointCloud2"
+    }
+  }
+}
+monitored_components {
+  key: "Localization"
+  value {
+  }
+}
+monitored_components {
+  key: "Recorder"
+  value {
+    process {
+      command_keywords: "cyber_recorder record"
+    }
+    resource {
+      disk_spaces {
+        path: "/apollo/data"
+        insufficient_space_warning: 8
+        insufficient_space_error: 2
+      }
+      disk_spaces {
+        path: "/media/apollo/internal_nvme"
+        insufficient_space_warning: 128
+        insufficient_space_error: 32
+      }
+    }
+  }
+}

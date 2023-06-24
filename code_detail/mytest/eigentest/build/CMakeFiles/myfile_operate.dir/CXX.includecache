@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michen/Documents/Apollo_learning/code_detail/mytest/eigentest/src/file_operate.cpp
+iostream
+-
+stdio.h
+-
+string
+-
+fstream
+-
+

@@ -1,0 +1,97 @@
+Log file created at: 2023/01/15 10:55:02
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0115 10:55:02.696923 19627 class_loader_utility.h:79] registerclass:RoutingComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/routing/librouting_component.so
+I0115 10:55:02.702699 19627 routing_component.cc:35] Config file: /apollo/modules/routing/conf/routing_config.pb.txt is loaded.
+I0115 10:55:02.705494 19627 routing.cc:40] Use routing topology graph path: /apollo/modules/map/data/sunnyvale_big_loop/routing_map.bin
+I0115 10:55:02.812299 19627 topo_graph.cc:83] Load Topo data successful.
+I0115 10:55:02.812316 19627 navigator.cc:111] The navigator is ready.
+I0115 10:55:04.785547 19627 routing.cc:55] Routing service is ready.
+I0115 10:56:42.949056 19639 routing.cc:318] Get new routing request:header {
+  timestamp_sec: 1673751402.9483957
+  module_name: "dreamview"
+  sequence_num: 2
+}
+waypoint {
+  id: "2684_1_-1"
+  s: 4.6440270173768283
+  pose {
+    x: 587005.38648629677
+    y: 4141229.6375350147
+  }
+}
+waypoint {
+  id: "2678_1_-1"
+  s: 14.807590740851097
+  pose {
+    x: 587182.87174280151
+    y: 4141184.509500917
+  }
+}
+I0115 10:56:42.949294 19639 navigator.cc:38] Way point:	lane id: 2684_1_-1 s: 4.64403 x: 587005 y: 4.14123e+06 length: 8.29089
+I0115 10:56:42.949308 19639 navigator.cc:38] Way point:	lane id: 2678_1_-1 s: 14.8076 x: 587183 y: 4.14118e+06 length: 28.3553
+I0115 10:56:42.949671 19639 a_star_strategy.cc:229] Start A* search algorithm.
+I0115 10:56:42.949884 19639 navigator.cc:85] Route lane id	is virtual	start s	end s
+I0115 10:56:42.949893 19639 navigator.cc:87] 2684_1_-1	0	4.64403	8.29089
+I0115 10:56:42.949905 19639 navigator.cc:87] 136_1_-1	0	0	2.93493
+I0115 10:56:42.949909 19639 navigator.cc:87] 2685_1_-1	0	0	81.1418
+I0115 10:56:42.949913 19639 navigator.cc:87] 2681_1_-1	0	0	31.4205
+I0115 10:56:42.949918 19639 navigator.cc:87] 2682_1_-1	0	0	49.1785
+I0115 10:56:42.949921 19639 navigator.cc:87] 2678_1_-1	0	0	14.8076
+I0115 10:58:15.652722 19639 routing.cc:318] Get new routing request:header {
+  timestamp_sec: 1673751495.6523614
+  module_name: "dreamview"
+  sequence_num: 3
+}
+waypoint {
+  id: "2685_1_-1"
+  s: 7.8159395583926861
+  pose {
+    x: 587019.30285839143
+    y: 4141225.9324019509
+  }
+}
+waypoint {
+  id: "2669_1_-1"
+  s: 11.370186659468562
+  pose {
+    x: 587171.10524573387
+    y: 4141171.58624913
+  }
+}
+I0115 10:58:15.652885 19639 navigator.cc:38] Way point:	lane id: 2685_1_-1 s: 7.81594 x: 587019 y: 4.14123e+06 length: 81.1418
+I0115 10:58:15.652896 19639 navigator.cc:38] Way point:	lane id: 2669_1_-1 s: 11.3702 x: 587171 y: 4.14117e+06 length: 13.5002
+I0115 10:58:15.653177 19639 a_star_strategy.cc:229] Start A* search algorithm.
+E0115 10:58:15.662566 19639 a_star_strategy.cc:323] Failed to find goal lane with id: 2669_1_-1
+E0115 10:58:15.662587 19639 navigator.cc:187] Failed to search route with waypoint from 2685_1_-1 to 2669_1_-1
+E0115 10:58:15.663033 19639 navigator.cc:80] Failed to find route with request!
+E0115 10:58:15.663061 19639 routing.cc:340] Failed to search route with navigator.
+I0115 10:58:35.569615 19633 routing.cc:318] Get new routing request:header {
+  timestamp_sec: 1673751515.5693371
+  module_name: "dreamview"
+  sequence_num: 4
+}
+waypoint {
+  id: "2685_1_-1"
+  s: 21.169206360398512
+  pose {
+    x: 587032.20900185162
+    y: 4141222.499972356
+  }
+}
+waypoint {
+  id: "2678_1_-1"
+  s: 16.022975960804349
+  pose {
+    x: 587183.96310200251
+    y: 4141183.8824066743
+  }
+}
+I0115 10:58:35.569761 19633 navigator.cc:38] Way point:	lane id: 2685_1_-1 s: 21.1692 x: 587032 y: 4.14122e+06 length: 81.1418
+I0115 10:58:35.569772 19633 navigator.cc:38] Way point:	lane id: 2678_1_-1 s: 16.023 x: 587184 y: 4.14118e+06 length: 28.3553
+I0115 10:58:35.570055 19633 a_star_strategy.cc:229] Start A* search algorithm.
+I0115 10:58:35.570176 19633 navigator.cc:85] Route lane id	is virtual	start s	end s
+I0115 10:58:35.570179 19633 navigator.cc:87] 2685_1_-1	0	21.1692	81.1418
+I0115 10:58:35.570183 19633 navigator.cc:87] 2681_1_-1	0	0	31.4205
+I0115 10:58:35.570185 19633 navigator.cc:87] 2682_1_-1	0	0	49.1785
+I0115 10:58:35.570187 19633 navigator.cc:87] 2678_1_-1	0	0	16.023

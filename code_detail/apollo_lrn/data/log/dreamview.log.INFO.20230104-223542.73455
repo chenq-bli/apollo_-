@@ -1,0 +1,651 @@
+Log file created at: 2023/01/04 22:35:42
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0104 22:35:42.230273 73455 pin_thread.cc:63] thread 140084730038016 set range affinity
+I0104 22:35:42.230369 73463 processor.cc:42] processor_tid: 73463
+I0104 22:35:42.230435 73455 pin_thread.cc:63] thread 140084587427584 set range affinity
+I0104 22:35:42.230540 73464 processor.cc:42] processor_tid: 73464
+I0104 22:35:42.230597 73455 pin_thread.cc:63] thread 140084653324032 set range affinity
+I0104 22:35:42.230700 73465 processor.cc:42] processor_tid: 73465
+I0104 22:35:42.230746 73455 pin_thread.cc:63] thread 140084644931328 set range affinity
+I0104 22:35:42.230789 73466 processor.cc:42] processor_tid: 73466
+I0104 22:35:42.230803 73455 init.cc:113] Register exit handle succ.
+I0104 22:35:42.232805 73455 map_service.cc:107] Failed to open map meta file: /metaInfo.json
+I0104 22:35:42.232816 73455 map_service.cc:144] Updated with map: x_offset 0, y_offset 0
+I0104 22:35:42.252035 73455 scheduler.cc:55] create croutine: image_handler_/apollo/sensor/camera/front_6mm/image
+I0104 22:35:42.252517 73455 scheduler.cc:55] create croutine: image_handler_/apollo/sensor/camera/front_6mm/image/compressed
+I0104 22:35:42.253219 73455 scheduler.cc:55] create croutine: transform_listener_1672842942252701090_/tf
+I0104 22:35:42.253594 73455 scheduler.cc:55] create croutine: transform_listener_1672842942252701090_/tf_static
+I0104 22:35:42.254993 73455 scheduler.cc:55] create croutine: perception_camera_updater_/apollo/localization/pose
+I0104 22:35:42.256728 73455 scheduler.cc:55] create croutine: perception_camera_updater_/apollo/perception/obstacles
+I0104 22:35:42.257268 73455 hmi_worker.cc:178] Loaded HMI config: modes {
+  key: "Camera-Lidar Sensor Calibration"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/camera-Lidar_sensor_calibration.pb.txt"
+}
+modes {
+  key: "Car Teleop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/car_teleop.pb.txt"
+}
+modes {
+  key: "Console Teleop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/console_teleop.pb.txt"
+}
+modes {
+  key: "Dev Kit Close Loop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/dev_kit_close_loop.pb.txt"
+}
+modes {
+  key: "Dev Kit Debug"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/dev_kit_debug.pb.txt"
+}
+modes {
+  key: "Ipc1 Mkz Close Loop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc1_mkz_close_loop.pb.txt"
+}
+modes {
+  key: "Ipc1 Mkz Standard Debug"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc1_mkz_standard_debug.pb.txt"
+}
+modes {
+  key: "Ipc2 Mkz Close Loop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc2_mkz_close_loop.pb.txt"
+}
+modes {
+  key: "Ipc2 Mkz Standard Debug"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/ipc2_mkz_standard_debug.pb.txt"
+}
+modes {
+  key: "Lidar-IMU Sensor Calibration"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/lidar-IMU_sensor_calibration.pb.txt"
+}
+modes {
+  key: "Map Collection"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/map_collection.pb.txt"
+}
+modes {
+  key: "Mkz 64beam"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_64beam.pb.txt"
+}
+modes {
+  key: "Mkz Close Loop"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_close_loop.pb.txt"
+}
+modes {
+  key: "Mkz Lgsvl"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_lgsvl.pb.txt"
+}
+modes {
+  key: "Mkz Standard Debug"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_standard_debug.pb.txt"
+}
+modes {
+  key: "Mkz Standard Debug Hesai"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_standard_debug_hesai.pb.txt"
+}
+modes {
+  key: "Mkz Standard Debug Smart Recorder"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/mkz_standard_debug_smart_recorder.pb.txt"
+}
+modes {
+  key: "Navigation"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/navigation.pb.txt"
+}
+modes {
+  key: "Rtk"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/rtk.pb.txt"
+}
+modes {
+  key: "Vehicle Calibration"
+  value: "/apollo/modules/dreamview/conf/hmi_modes/vehicle_calibration.pb.txt"
+}
+maps {
+  key: "Apollo Virutal Map"
+  value: "/apollo/modules/map/data/apollo_virutal_map"
+}
+maps {
+  key: "Borregas Ave"
+  value: "/apollo/modules/map/data/borregas_ave"
+}
+maps {
+  key: "Demo"
+  value: "/apollo/modules/map/data/demo"
+}
+maps {
+  key: "San Mateo"
+  value: "/apollo/modules/map/data/san_mateo"
+}
+maps {
+  key: "Sunnyvale Big Loop"
+  value: "/apollo/modules/map/data/sunnyvale_big_loop"
+}
+maps {
+  key: "Sunnyvale Loop"
+  value: "/apollo/modules/map/data/sunnyvale_loop"
+}
+maps {
+  key: "Sunnyvale With Two Offices"
+  value: "/apollo/modules/map/data/sunnyvale_with_two_offices"
+}
+vehicles {
+  key: "Apollo Perception Test Bev"
+  value: "/apollo/modules/calibration/data/apollo_perception_test_bev"
+}
+vehicles {
+  key: "Lincoln2017MKZ LGSVL"
+  value: "/apollo/modules/calibration/data/Lincoln2017MKZ_LGSVL"
+}
+vehicles {
+  key: "Mkz Example"
+  value: "/apollo/modules/calibration/data/mkz_example"
+}
+vehicles {
+  key: "Perception Test V1"
+  value: "/apollo/modules/calibration/data/perception_test_v1"
+}
+I0104 22:35:42.259433 73455 scheduler.cc:55] create croutine: data_collection_monitor_/apollo/canbus/chassis
+W0104 22:35:42.260279 73455 data_collection_monitor.cc:121] No corresponding data collection table file found in . Using default one instead.
+I0104 22:35:42.263417 73455 fuel_monitor_manager.cc:36] Registered DataCollectionMonitor for mode: Vehicle Calibration
+I0104 22:35:42.263800 73455 scheduler.cc:55] create croutine: progress_monitor_/apollo/dreamview/progress
+I0104 22:35:42.264173 73455 fuel_monitor_manager.cc:36] Registered PreprocessMonitor for mode: Vehicle Calibration
+I0104 22:35:42.264320 73455 scheduler.cc:55] create croutine: camera_to_lidar_progress_monitor_/apollo/dreamview/progress
+W0104 22:35:42.264416 73455 preprocess_monitor.cc:72] No corresponding preprocess table file found in . Using default one instead.
+I0104 22:35:42.264636 73455 fuel_monitor_manager.cc:36] Registered PreprocessMonitor for mode: Camera-Lidar Sensor Calibration
+I0104 22:35:42.264762 73455 scheduler.cc:55] create croutine: lidar_to_gnss_progress_monitor_/apollo/dreamview/progress
+W0104 22:35:42.264866 73455 preprocess_monitor.cc:72] No corresponding preprocess table file found in . Using default one instead.
+I0104 22:35:42.265080 73455 fuel_monitor_manager.cc:36] Registered PreprocessMonitor for mode: Lidar-IMU Sensor Calibration
+I0104 22:35:42.265168 73455 kv_db.cc:64] Executing SQL: CREATE TABLE IF NOT EXISTS key_value (key VARCHAR(128) PRIMARY KEY NOT NULL, value TEXT);
+I0104 22:35:42.265296 73455 kv_db.cc:64] Executing SQL: SELECT value FROM key_value WHERE key='/apollo/hmi/status:current_mode';
+I0104 22:35:42.265960 73455 hmi_worker.cc:218] Loaded HMI mode: modules {
+  key: "AudioDetection"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/audio/dag/audio.dag &"
+    stop_command: "pkill -f \"/apollo/modules/audio/dag/audio.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/audio/dag/audio.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Camera"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/camera/dag/camera.dag -d /apollo/modules/drivers/video/dag/video.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/camera/dag/camera.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/camera/dag/camera.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Canbus"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/canbus/dag/canbus.dag &"
+    stop_command: "pkill -f \"/apollo/modules/canbus/dag/canbus.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/canbus/dag/canbus.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Control"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/control/dag/control.dag &"
+    stop_command: "pkill -f \"/apollo/modules/control/dag/control.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/control/dag/control.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "GPS"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/gnss/dag/gnss.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/gnss/dag/gnss.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/gnss/dag/gnss.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Guardian"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/guardian/dag/guardian.dag &"
+    stop_command: "pkill -f \"/apollo/modules/guardian/dag/guardian.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/guardian/dag/guardian.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Localization"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/localization/dag/dag_streaming_msf_localization.dag &"
+    stop_command: "pkill -f \"/apollo/modules/localization/dag/dag_streaming_msf_localization.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/localization/dag/dag_streaming_msf_localization.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Microphone"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/microphone/dag/microphone.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/microphone/dag/microphone.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/microphone/dag/microphone.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Perception"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception.dag &"
+    stop_command: "pkill -f \"/apollo/modules/perception/production/dag/dag_streaming_perception.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/perception/production/dag/dag_streaming_perception.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Planning"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/planning/dag/planning.dag &"
+    stop_command: "pkill -f \"/apollo/modules/planning/dag/planning.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/planning/dag/planning.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Prediction"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/prediction/dag/prediction.dag &"
+    stop_command: "pkill -f \"/apollo/modules/prediction/dag/prediction.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/prediction/dag/prediction.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Radar"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/radar/conti_radar/dag/conti_radar.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Recorder"
+  value {
+    start_command: "/apollo/scripts/record_bag.py --start --all"
+    stop_command: "/apollo/scripts/record_bag.py --stop --stop_signal SIGINT"
+    process_monitor_config {
+      command_keywords: "cyber_recorder record"
+    }
+  }
+}
+modules {
+  key: "Routing"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/routing/dag/routing.dag &"
+    stop_command: "pkill -f \"/apollo/modules/routing/dag/routing.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/routing/dag/routing.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Storytelling"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/storytelling/dag/storytelling.dag &"
+    stop_command: "pkill -f \"/apollo/modules/storytelling/dag/storytelling.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/storytelling/dag/storytelling.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Traffic Light"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag &"
+    stop_command: "pkill -f \"/apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/perception/production/dag/dag_streaming_perception_trafficlights.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Transform"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/transform/dag/static_transform.dag &"
+    stop_command: "pkill -f \"/apollo/modules/transform/dag/static_transform.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/transform/dag/static_transform.dag"
+    }
+    required_for_safety: true
+  }
+}
+modules {
+  key: "Velodyne"
+  value {
+    start_command: "nohup mainboard -d /apollo/modules/drivers/velodyne/dag/velodyne.dag &"
+    stop_command: "pkill -f \"/apollo/modules/drivers/velodyne/dag/velodyne.dag\""
+    process_monitor_config {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/velodyne/dag/velodyne.dag"
+    }
+    required_for_safety: true
+  }
+}
+monitored_components {
+  key: "GPS"
+  value {
+    process {
+      command_keywords: "mainboard"
+      command_keywords: "/apollo/modules/drivers/gnss/dag/gnss.dag"
+    }
+  }
+}
+monitored_components {
+  key: "Lidar 128"
+  value {
+    channel {
+      name: "/apollo/sensor/lidar128/compensator/PointCloud2"
+    }
+  }
+}
+monitored_components {
+  key: "Localization"
+  value {
+  }
+}
+monitored_components {
+  key: "Recorder"
+  value {
+    process {
+      command_keywords: "cyber_recorder record"
+    }
+    resource {
+      disk_spaces {
+        path: "/apollo/data"
+        insufficient_space_warning: 8
+        insufficient_space_error: 2
+      }
+      disk_spaces {
+        path: "/media/apollo/internal_nvme"
+        insufficient_space_warning: 128
+        insufficient_space_error: 32
+      }
+    }
+  }
+}
+I0104 22:35:42.266351 73455 kv_db.cc:64] Executing SQL: CREATE TABLE IF NOT EXISTS key_value (key VARCHAR(128) PRIMARY KEY NOT NULL, value TEXT);
+I0104 22:35:42.266425 73455 kv_db.cc:64] Executing SQL: INSERT OR REPLACE INTO key_value (key, value) VALUES ('/apollo/hmi/status:current_mode', 'Mkz Standard Debug');
+E0104 22:35:42.269426 73455 plugin_manager.cc:216] Cannot open directory /.apollo/dreamview/plugins/
+I0104 22:35:42.270136 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/routing_request
+I0104 22:35:42.270553 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/routing_response
+I0104 22:35:42.270969 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/canbus/chassis
+I0104 22:35:42.271339 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/sensor/gnss/odometry
+I0104 22:35:42.271829 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/localization/pose
+I0104 22:35:42.272243 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/perception/obstacles
+I0104 22:35:42.273061 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/perception/traffic_light
+I0104 22:35:42.275388 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/prediction
+I0104 22:35:42.281635 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/planning
+I0104 22:35:42.283504 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/control
+I0104 22:35:42.284868 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/navigation
+I0104 22:35:42.286360 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/relative_map
+I0104 22:35:42.287026 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/storytelling
+I0104 22:35:42.287580 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/audio_detection
+I0104 22:35:42.288074 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/audio_event
+I0104 22:35:42.288571 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/drive_event
+I0104 22:35:42.288919 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/monitor
+I0104 22:35:42.290390 73455 scheduler.cc:55] create croutine: simulation_world_/apollo/task_manager
+I0104 22:35:42.300374 73455 timer.cc:137] start timer [0]
+I0104 22:35:42.300653 73455 scheduler.cc:55] create croutine: point_cloud_/apollo/localization/pose
+I0104 22:35:42.301151 73455 point_cloud_updater.cc:67] Lidar height is updated to 1.91
+I0104 22:35:42.305873 73455 scheduler.cc:55] create croutine: HMI_/apollo/monitor/system_status
+I0104 22:35:42.306365 73455 scheduler.cc:55] create croutine: HMI_/apollo/localization/pose
+I0104 22:35:42.306764 73455 scheduler.cc:55] create croutine: HMI_/apollo/canbus/chassis
+I0104 22:35:42.306947 73455 scheduler.cc:55] create croutine: /internal/task0
+I0104 22:35:42.306970 73455 scheduler.cc:55] create croutine: /internal/task1
+I0104 22:35:42.306979 73455 scheduler.cc:55] create croutine: /internal/task2
+I0104 22:35:42.306993 73455 scheduler.cc:55] create croutine: /internal/task3
+I0104 22:35:42.400988 73465 simulation_world_service.h:240] Has not received any data from /apollo/canbus/chassis
+I0104 22:35:42.401050 73465 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:35:42.401059 73465 simulation_world_service.h:240] Has not received any data from /apollo/localization/pose
+I0104 22:35:42.401077 73465 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:35:42.401084 73465 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:35:42.401090 73465 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:35:42.401098 73465 simulation_world_service.h:240] Has not received any data from /apollo/prediction
+I0104 22:35:42.401118 73465 simulation_world_service.h:240] Has not received any data from /apollo/planning
+I0104 22:35:42.401124 73465 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:35:52.400894 73464 simulation_world_service.h:240] Has not received any data from /apollo/canbus/chassis
+I0104 22:35:52.400943 73464 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:35:52.400950 73464 simulation_world_service.h:240] Has not received any data from /apollo/localization/pose
+I0104 22:35:52.400985 73464 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:35:52.400990 73464 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:35:52.400998 73464 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:35:52.401005 73464 simulation_world_service.h:240] Has not received any data from /apollo/prediction
+I0104 22:35:52.401010 73464 simulation_world_service.h:240] Has not received any data from /apollo/planning
+I0104 22:35:52.401016 73464 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:36:02.400992 73465 simulation_world_service.h:240] Has not received any data from /apollo/canbus/chassis
+I0104 22:36:02.401041 73465 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:36:02.401048 73465 simulation_world_service.h:240] Has not received any data from /apollo/localization/pose
+I0104 22:36:02.401069 73465 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:36:02.401077 73465 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:36:02.401082 73465 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:36:02.401089 73465 simulation_world_service.h:240] Has not received any data from /apollo/prediction
+I0104 22:36:02.401095 73465 simulation_world_service.h:240] Has not received any data from /apollo/planning
+I0104 22:36:02.401101 73465 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:36:03.313593 73471 websocket_handler.cc:32] SimWorld: Accepted connection. Total connections: 1
+I0104 22:36:03.314826 73472 websocket_handler.cc:32] Map: Accepted connection. Total connections: 1
+I0104 22:36:03.317315 73473 websocket_handler.cc:32] PointCloud: Accepted connection. Total connections: 1
+I0104 22:36:03.317931 73474 websocket_handler.cc:32] Camera: Accepted connection. Total connections: 1
+E0104 22:36:03.533774 73471 file.cc:76] Failed to open file /apollo/modules/map/data/sunnyvale_with_two_offices_default_cycle_routing.txt in text mode.
+W0104 22:36:03.533802 73471 simulation_world_updater.cc:772] Failed to load routings from /apollo/modules/map/data/sunnyvale_with_two_offices_default_cycle_routing.txt
+W0104 22:36:03.534026 73471 simulation_world_updater.cc:258] Not sending simulation world as the data is not ready!
+E0104 22:36:10.539234 73471 json_util.cc:54] The json has no such key: value
+E0104 22:36:10.539316 73471 hmi_worker.cc:357] HMIAction LOAD_DYNAMIC_MODELS was triggered!
+I0104 22:36:10.539516 73471 map_service.cc:107] Failed to open map meta file: /metaInfo.json
+I0104 22:36:10.539535 73471 map_service.cc:144] Updated with map: x_offset 0, y_offset 0
+I0104 22:36:10.541651 73471 scheduler.cc:55] create croutine: sim_perfect_control_/apollo/localization/pose
+I0104 22:36:10.551772 73471 scheduler.cc:55] create croutine: sim_perfect_control_/apollo/planning
+I0104 22:36:10.553584 73471 scheduler.cc:55] create croutine: sim_perfect_control_/apollo/routing_request
+I0104 22:36:10.554625 73471 scheduler.cc:55] create croutine: sim_perfect_control_/apollo/routing_response
+I0104 22:36:10.557503 73471 scheduler.cc:55] create croutine: sim_perfect_control_/apollo/navigation
+I0104 22:36:10.559593 73471 scheduler.cc:55] create croutine: sim_perfect_control_/apollo/prediction
+E0104 22:36:10.572396 73471 dynamic_model_factory.cc:159] Failed to find DynamicModel!No dynamic model locally,Or do not place it in correct location.
+I0104 22:36:10.572508 73471 hmi_worker.cc:391] HMIAction CHANGE_DYNAMIC_MODEL(Simulation Perfect Control) was triggered!
+I0104 22:36:10.572710 73471 timer.cc:137] start timer [1]
+I0104 22:36:10.572716 73471 timer.cc:137] start timer [2]
+I0104 22:36:12.400542 73464 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:36:12.400563 73464 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:36:12.400565 73464 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:36:12.400568 73464 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:36:12.400614 73464 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:36:22.398723 73464 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:36:22.398763 73464 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:36:22.398768 73464 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:36:22.398773 73464 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:36:22.398849 73464 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:36:31.938061 73471 simulation_world_updater.cc:692] Constructed RoutingRequest to be sent:
+waypoint {
+  id: "9989_1_-4"
+  s: 10.250010727134114
+  pose {
+    x: 586134.0597768781
+    y: 4140053.3533946695
+  }
+}
+waypoint {
+  id: "9985_1_-2"
+  s: 9.7142113164119213
+  pose {
+    x: 586225.80835519289
+    y: 4140099.7932390049
+  }
+}
+I0104 22:36:32.400837 73465 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:36:32.400889 73465 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:36:32.400894 73465 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:36:32.400898 73465 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:36:32.401001 73465 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:36:42.400830 73466 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:36:42.400895 73466 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:36:42.400907 73466 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:36:42.400918 73466 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:36:42.401047 73466 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:36:52.400724 73465 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:36:52.400768 73465 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:36:52.400774 73465 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:36:52.400777 73465 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:36:52.400872 73465 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:37:02.400688 73465 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:37:02.400727 73465 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:37:02.400732 73465 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:37:02.400738 73465 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:37:02.400815 73465 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:37:08.501025 73471 simulation_world_updater.cc:692] Constructed RoutingRequest to be sent:
+waypoint {
+  id: "9989_1_-4"
+  s: 10.250010727134114
+  pose {
+    x: 586134.0597768781
+    y: 4140053.3533946695
+  }
+}
+waypoint {
+  id: "9989_1_-4"
+  s: 37.741237817781574
+  pose {
+    x: 586130.203687426
+    y: 4140026.0842932756
+  }
+}
+E0104 22:37:08.692553 73464 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:08.692584 73464 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:08.702524 73465 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:08.702553 73465 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:08.712556 73466 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:08.712590 73466 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:08.722543 73464 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:08.722563 73464 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:08.732540 73464 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:08.732565 73464 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:08.742463 73464 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:08.742483 73464 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:08.752521 73464 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:08.752547 73464 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:08.762614 73465 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:08.762634 73465 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:08.772620 73466 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:08.772641 73466 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+I0104 22:37:12.400715 73464 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:37:12.400769 73464 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:37:12.400776 73464 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:37:12.400780 73464 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:37:12.401136 73464 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:37:22.400655 73464 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:37:22.400704 73464 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:37:22.400710 73464 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:37:22.400714 73464 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:37:22.401031 73464 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:37:32.400669 73466 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:37:32.400722 73466 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:37:32.400728 73466 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:37:32.400733 73466 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:37:32.401087 73466 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:37:42.400738 73465 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:37:42.400791 73465 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:37:42.400797 73465 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:37:42.400802 73465 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:37:42.401150 73465 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:37:46.421082 73471 simulation_world_updater.cc:692] Constructed RoutingRequest to be sent:
+waypoint {
+  id: "229_1_-1"
+  s: 40.487995782755348
+  pose {
+    x: 586233.16537998582
+    y: 4140133.8723065662
+  }
+}
+waypoint {
+  id: "229_1_-1"
+  s: 99.565082133399315
+  pose {
+    x: 586291.30210234912
+    y: 4140123.3619263335
+  }
+}
+E0104 22:37:46.602478 73465 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:46.602510 73465 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:46.612473 73465 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:46.612500 73465 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:46.622488 73465 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:46.622522 73465 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:46.632519 73464 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:46.632545 73464 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:46.642493 73464 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:46.642501 73464 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:46.652542 73465 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:46.652572 73465 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:46.662516 73465 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:46.662534 73465 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+E0104 22:37:46.672816 73465 sim_perfect_control.cc:432] First trajectory point is a future point!
+E0104 22:37:46.672837 73465 sim_perfect_control.cc:396] Failed to calculate next point with perfect control model
+I0104 22:37:52.400709 73465 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:37:52.400758 73465 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:37:52.400763 73465 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:37:52.400769 73465 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:37:52.401226 73465 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:38:02.400709 73464 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:38:02.400758 73464 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:38:02.400763 73464 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:38:02.400765 73464 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:38:02.401248 73464 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:38:12.400775 73465 simulation_world_service.h:240] Has not received any data from /apollo/sensor/gnss/odometry
+I0104 22:38:12.400808 73465 simulation_world_service.h:240] Has not received any data from /apollo/audio_detection
+I0104 22:38:12.400811 73465 simulation_world_service.h:240] Has not received any data from /apollo/storytelling
+I0104 22:38:12.400813 73465 simulation_world_service.h:240] Has not received any data from /apollo/perception/obstacles
+I0104 22:38:12.401103 73465 simulation_world_service.h:240] Has not received any data from /apollo/control
+I0104 22:38:13.389549 73473 websocket_handler.cc:60] PointCloud: Connection closed. Total connections: 0
+I0104 22:38:13.402417 73474 websocket_handler.cc:60] Camera: Connection closed. Total connections: 0
+W0104 22:38:13.406738 73463 websocket_handler.cc:137] SimWorld: Failed to send data via websocket connection. Reason
+W0104 22:38:13.406752 73463 websocket_handler.cc:141] Send error: Success
+I0104 22:38:13.527173 73472 websocket_handler.cc:60] Map: Connection closed. Total connections: 0
+I0104 22:38:13.527266 73471 websocket_handler.cc:60] SimWorld: Connection closed. Total connections: 0
+I0104 22:38:13.537413 73455 timer.cc:144] stop timer, the timer_id: 1
+I0104 22:38:13.537461 73455 timer.cc:144] stop timer, the timer_id: 2
+W0104 22:38:13.549082 73525 rate.cc:96] Detect forward jumps in time

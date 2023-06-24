@@ -1,0 +1,12 @@
+Log file created at: 2023/01/06 01:06:50
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0106 01:06:50.010139 15363 class_loader_utility.h:79] registerclass:Monitor,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/monitor/libmonitor.so
+E0106 01:06:50.526490 15378 monitor_manager.cc:54] No HMIStatus was received.
+E0106 01:06:51.024191 15374 monitor_manager.cc:54] No HMIStatus was received.
+I0106 01:06:51.529094 15375 recurrent_runner.cc:30] EsdCanMonitor is running round #1
+I0106 01:07:04.524435 15366 recurrent_runner.cc:30] SummaryMonitor is running round #27
+I0106 01:07:18.524376 15367 recurrent_runner.cc:30] EsdCanMonitor is running round #9
+I0106 01:07:31.524268 15369 recurrent_runner.cc:30] SummaryMonitor is running round #81
+I0106 01:07:45.526237 15370 recurrent_runner.cc:30] LocalizationMonitor is running round #11
+I0106 01:07:59.026410 15378 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #136

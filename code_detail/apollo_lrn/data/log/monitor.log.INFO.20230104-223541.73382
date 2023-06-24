@@ -1,0 +1,18 @@
+Log file created at: 2023/01/04 22:35:41
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0104 22:35:41.240825 73382 class_loader_utility.h:79] registerclass:Monitor,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/monitor/libmonitor.so
+E0104 22:35:41.751960 73399 monitor_manager.cc:54] No HMIStatus was received.
+E0104 22:35:42.249513 73392 monitor_manager.cc:54] No HMIStatus was received.
+I0104 22:35:42.754590 73394 recurrent_runner.cc:30] EsdCanMonitor is running round #1
+I0104 22:35:55.751978 73390 recurrent_runner.cc:30] ProcessMonitor is running round #8
+I0104 22:36:09.259425 73399 recurrent_runner.cc:30] ChannelMonitor is running round #6
+I0104 22:36:23.251714 73385 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #82
+I0104 22:36:36.255163 73393 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #108
+I0104 22:36:50.252100 73393 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #136
+I0104 22:37:04.251631 73394 recurrent_runner.cc:30] SummaryMonitor is running round #164
+I0104 22:37:17.751677 73392 recurrent_runner.cc:30] ChannelMonitor is running round #19
+I0104 22:37:31.251679 73400 recurrent_runner.cc:30] ProcessMonitor is running round #61
+I0104 22:37:44.255434 73391 recurrent_runner.cc:30] SummaryMonitor is running round #244
+I0104 22:37:58.751818 73400 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #273
+I0104 22:38:12.749778 73392 recurrent_runner.cc:30] ProcessMonitor is running round #83

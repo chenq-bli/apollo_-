@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/template_vec.h
+iostream
+-
+string
+-
+
+/home/michen/Documents/Apollo_learning/code_detail/mytest/template_operator_vector/template_operator_vector_ shm/src/main.cpp
+template_vec.h
+/home/michen/Documents/Apollo_learning/code_detail/mytest/template_operator_vector/template_operator_vector_ shm/src/template_vec.h
+
+/home/michen/Documents/Apollo_learning/code_detail/mytest/template_operator_vector/template_operator_vector_ shm/src/template_vec.cpp
+

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -DDEBUG  -rdynamic CMakeFiles/stdout_debug_node.dir/src/main.cpp.o CMakeFiles/stdout_debug_node.dir/src/StudentManager.cpp.o  -o ../stdout_debug_node  -lpthread -lmysqlclient -labsl_strings 

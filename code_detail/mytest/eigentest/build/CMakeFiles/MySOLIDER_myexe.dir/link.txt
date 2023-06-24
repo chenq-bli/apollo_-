@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall  -rdynamic CMakeFiles/MySOLIDER_myexe.dir/src/main.cpp.o CMakeFiles/MySOLIDER_myexe.dir/src/myfun.cpp.o  -o MySOLIDER_myexe  -lpthread 

@@ -1,0 +1,8 @@
+Log file created at: 2023/01/04 20:34:02
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0104 20:34:02.236059 55277 class_loader_utility.h:79] registerclass:Monitor,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/monitor/libmonitor.so
+E0104 20:34:02.748275 55293 monitor_manager.cc:54] No HMIStatus was received.
+E0104 20:34:03.244776 55288 monitor_manager.cc:54] No HMIStatus was received.
+I0104 20:34:03.749841 55288 recurrent_runner.cc:30] EsdCanMonitor is running round #1
+I0104 20:34:16.245311 55292 recurrent_runner.cc:30] GpsMonitor is running round #5

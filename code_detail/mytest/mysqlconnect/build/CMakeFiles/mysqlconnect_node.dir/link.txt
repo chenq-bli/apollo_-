@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall  -rdynamic CMakeFiles/mysqlconnect_node.dir/src/main.cpp.o CMakeFiles/mysqlconnect_node.dir/src/StudentManager.cpp.o  -o ../mysqlconnect_node  -lpthread -lmysqlclient 

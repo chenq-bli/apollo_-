@@ -1,0 +1,2134 @@
+Log file created at: 2023/01/15 10:51:16
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0115 10:51:16.241392 14444 class_loader_utility.h:79] registerclass:PlanningComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/planning/libplanning_component.so
+E0115 10:51:18.277616 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.298602 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:18.299171 14446 planning_component.cc:157] Input check failed
+E0115 10:51:18.327724 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.377810 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.397742 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:18.397879 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:18.397990 14461 planning_component.cc:157] Input check failed
+E0115 10:51:18.437583 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.487838 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.497725 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:18.497869 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:18.498005 14458 planning_component.cc:157] Input check failed
+E0115 10:51:18.547740 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.597601 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:18.597762 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:18.597910 14451 planning_component.cc:157] Input check failed
+E0115 10:51:18.597939 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.657711 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.697932 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:18.698150 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:18.698326 14456 planning_component.cc:157] Input check failed
+E0115 10:51:18.707792 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.767598 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.797652 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:18.797772 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:18.797863 14454 planning_component.cc:157] Input check failed
+E0115 10:51:18.817692 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.867825 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.897866 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:18.898058 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:18.898243 14451 planning_component.cc:157] Input check failed
+E0115 10:51:18.917902 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.967978 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:18.997763 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:18.997929 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:18.998090 14459 planning_component.cc:157] Input check failed
+E0115 10:51:19.027776 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.087489 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.097657 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:19.097772 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:19.097864 14453 planning_component.cc:157] Input check failed
+E0115 10:51:19.137686 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.187803 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.197922 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:19.198138 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:19.198325 14451 planning_component.cc:157] Input check failed
+E0115 10:51:19.238030 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.297727 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.298115 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:19.298239 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:19.298342 14458 planning_component.cc:157] Input check failed
+E0115 10:51:19.357563 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.397938 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:19.398097 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:19.398221 14447 planning_component.cc:157] Input check failed
+E0115 10:51:19.407698 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.457835 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.498011 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:19.498248 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:19.498467 14451 planning_component.cc:157] Input check failed
+E0115 10:51:19.508040 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.567822 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.597862 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:19.598029 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:19.598165 14458 planning_component.cc:157] Input check failed
+E0115 10:51:19.617906 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.677618 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.697748 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:19.697882 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:19.697993 14447 planning_component.cc:157] Input check failed
+E0115 10:51:19.727753 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.777905 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.797883 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:19.798084 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:19.798269 14455 planning_component.cc:157] Input check failed
+E0115 10:51:19.837697 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.887753 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.898118 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:19.898341 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:19.898555 14446 planning_component.cc:157] Input check failed
+E0115 10:51:19.937870 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.987952 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:19.997903 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:19.998090 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:19.998257 14452 planning_component.cc:157] Input check failed
+E0115 10:51:20.047753 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.097815 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.097824 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:20.098052 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:20.098199 14459 planning_component.cc:157] Input check failed
+E0115 10:51:20.157627 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.197854 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:20.198016 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:20.198158 14453 planning_component.cc:157] Input check failed
+E0115 10:51:20.207753 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.267760 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.298010 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:20.298260 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:20.298498 14461 planning_component.cc:157] Input check failed
+E0115 10:51:20.317827 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.377346 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.401362 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:20.401472 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:20.401558 14458 planning_component.cc:157] Input check failed
+E0115 10:51:20.427399 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.477450 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.497519 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:20.497635 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:20.497722 14448 planning_component.cc:157] Input check failed
+E0115 10:51:20.527508 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.587268 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.597390 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:20.597518 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:20.597625 14455 planning_component.cc:157] Input check failed
+E0115 10:51:20.647332 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.697403 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.697557 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:20.697674 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:20.697786 14450 planning_component.cc:157] Input check failed
+E0115 10:51:20.757184 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.797475 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:20.797597 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:20.797684 14453 planning_component.cc:157] Input check failed
+E0115 10:51:20.807301 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.857334 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.897540 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:20.897670 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:20.897778 14459 planning_component.cc:157] Input check failed
+E0115 10:51:20.907375 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.967541 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:20.997527 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:20.997656 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:20.997769 14448 planning_component.cc:157] Input check failed
+E0115 10:51:21.027264 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.087350 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.097404 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:21.097519 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:21.097602 14453 planning_component.cc:157] Input check failed
+E0115 10:51:21.137462 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.197296 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.197367 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:21.197485 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:21.197589 14458 planning_component.cc:157] Input check failed
+E0115 10:51:21.247373 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.297343 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:21.297442 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.297477 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:21.297582 14448 planning_component.cc:157] Input check failed
+E0115 10:51:21.347482 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.397361 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:21.397490 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:21.397595 14461 planning_component.cc:157] Input check failed
+E0115 10:51:21.397614 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.457255 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.497339 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:21.497475 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:21.497581 14446 planning_component.cc:157] Input check failed
+E0115 10:51:21.507392 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.567379 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.597332 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:21.597468 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:21.597580 14451 planning_component.cc:157] Input check failed
+E0115 10:51:21.627292 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.677351 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.697331 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:21.697455 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:21.697544 14461 planning_component.cc:157] Input check failed
+E0115 10:51:21.737272 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.787528 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.797361 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:21.797484 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:21.797585 14446 planning_component.cc:157] Input check failed
+E0115 10:51:21.847352 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.897357 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:21.897475 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.897490 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:21.897584 14460 planning_component.cc:157] Input check failed
+E0115 10:51:21.947593 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:21.997381 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:21.997496 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:21.997581 14461 planning_component.cc:157] Input check failed
+E0115 10:51:22.007278 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.057408 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.097496 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:22.097625 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:22.097731 14446 planning_component.cc:157] Input check failed
+E0115 10:51:22.107506 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.167230 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.197391 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:22.197526 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:22.197634 14459 planning_component.cc:157] Input check failed
+E0115 10:51:22.217360 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.267418 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.297544 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:22.297672 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:22.297778 14447 planning_component.cc:157] Input check failed
+E0115 10:51:22.327214 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.377281 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.397648 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:22.397781 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:22.397881 14460 planning_component.cc:157] Input check failed
+E0115 10:51:22.427407 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.487344 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.497582 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:22.497712 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:22.497833 14456 planning_component.cc:157] Input check failed
+E0115 10:51:22.537398 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.597409 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.597465 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:22.597597 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:22.597705 14457 planning_component.cc:157] Input check failed
+E0115 10:51:22.657284 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.697445 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:22.697578 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:22.697677 14460 planning_component.cc:157] Input check failed
+E0115 10:51:22.707340 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.767282 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.797331 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:22.797469 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:22.797585 14456 planning_component.cc:157] Input check failed
+E0115 10:51:22.817415 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.867470 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.897330 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:22.897467 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:22.897580 14451 planning_component.cc:157] Input check failed
+E0115 10:51:22.917510 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.977279 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:22.997296 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:22.997426 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:22.997536 14449 planning_component.cc:157] Input check failed
+E0115 10:51:23.027352 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.087302 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.097329 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:23.097455 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:23.097558 14456 planning_component.cc:157] Input check failed
+E0115 10:51:23.137356 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.197206 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.197288 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:23.197396 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:23.197479 14448 planning_component.cc:157] Input check failed
+E0115 10:51:23.257247 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.297358 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:23.297473 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:23.297559 14449 planning_component.cc:157] Input check failed
+E0115 10:51:23.307355 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.367328 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.397588 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:23.397716 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:23.397804 14455 planning_component.cc:157] Input check failed
+E0115 10:51:23.417440 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.467554 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.497639 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:23.497761 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:23.497861 14459 planning_component.cc:157] Input check failed
+E0115 10:51:23.527294 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.577428 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.597584 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:23.597713 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:23.597824 14447 planning_component.cc:157] Input check failed
+E0115 10:51:23.637243 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.687371 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.697335 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:23.697444 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:23.697526 14455 planning_component.cc:157] Input check failed
+E0115 10:51:23.747241 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.797294 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.797360 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:23.797461 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:23.797560 14459 planning_component.cc:157] Input check failed
+E0115 10:51:23.847358 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.897315 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:23.897433 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.897459 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:23.897572 14458 planning_component.cc:157] Input check failed
+E0115 10:51:23.957237 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:23.997330 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:23.997448 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:23.997530 14455 planning_component.cc:157] Input check failed
+E0115 10:51:24.017268 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.067318 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.097379 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:24.097506 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:24.097607 14461 planning_component.cc:157] Input check failed
+E0115 10:51:24.117383 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.167563 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.197530 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:24.197659 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:24.197774 14453 planning_component.cc:157] Input check failed
+E0115 10:51:24.227358 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.287328 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.297524 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:24.297652 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:24.297760 14460 planning_component.cc:157] Input check failed
+E0115 10:51:24.347352 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.397397 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:24.397430 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.397517 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:24.397603 14461 planning_component.cc:157] Input check failed
+E0115 10:51:24.447465 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.497460 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:24.497581 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.497610 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:24.497717 14453 planning_component.cc:157] Input check failed
+E0115 10:51:24.547739 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.597434 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:24.597589 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:24.597705 14460 planning_component.cc:157] Input check failed
+E0115 10:51:24.607466 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.667449 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.697579 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:24.697769 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:24.697939 14461 planning_component.cc:157] Input check failed
+E0115 10:51:24.717530 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.767613 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.797739 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:24.797940 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:24.798118 14453 planning_component.cc:157] Input check failed
+E0115 10:51:24.817744 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.877483 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.898244 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:24.898449 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:24.898622 14449 planning_component.cc:157] Input check failed
+E0115 10:51:24.927575 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.987423 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:24.997550 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:24.997694 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:24.997798 14461 planning_component.cc:157] Input check failed
+E0115 10:51:25.047232 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.097584 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.097642 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:25.097774 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:25.097893 14455 planning_component.cc:157] Input check failed
+E0115 10:51:25.147821 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.197791 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:25.198024 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:25.198195 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.198232 14456 planning_component.cc:157] Input check failed
+E0115 10:51:25.257556 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.297557 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:25.297729 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:25.297883 14457 planning_component.cc:157] Input check failed
+E0115 10:51:25.307631 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.367391 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.398023 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:25.398193 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:25.398322 14450 planning_component.cc:157] Input check failed
+E0115 10:51:25.417443 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.467538 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.497439 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:25.497565 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:25.497653 14458 planning_component.cc:157] Input check failed
+E0115 10:51:25.527631 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.577733 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.597359 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:25.597543 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:25.597712 14457 planning_component.cc:157] Input check failed
+E0115 10:51:25.637280 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.687379 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.697357 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:25.697481 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:25.697585 14460 planning_component.cc:157] Input check failed
+E0115 10:51:25.737435 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.787504 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.797813 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:25.797958 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:25.798069 14461 planning_component.cc:157] Input check failed
+E0115 10:51:25.847311 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.897382 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.897472 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:25.897569 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:25.897660 14459 planning_component.cc:157] Input check failed
+E0115 10:51:25.947584 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.997632 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:25.997658 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:25.997876 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:25.998126 14449 planning_component.cc:157] Input check failed
+E0115 10:51:26.047848 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.097723 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:26.097880 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:26.097995 14461 planning_component.cc:157] Input check failed
+E0115 10:51:26.098009 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.157455 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.197434 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:26.197697 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:26.197847 14459 planning_component.cc:157] Input check failed
+E0115 10:51:26.217514 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.267683 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.297775 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:26.298014 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:26.298194 14456 planning_component.cc:157] Input check failed
+E0115 10:51:26.327307 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.377367 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.397483 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:26.397660 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:26.397815 14461 planning_component.cc:157] Input check failed
+E0115 10:51:26.427482 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.477562 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.497473 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:26.497663 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:26.497838 14450 planning_component.cc:157] Input check failed
+E0115 10:51:26.537252 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.587466 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.597476 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:26.597600 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:26.597699 14456 planning_component.cc:157] Input check failed
+E0115 10:51:26.637588 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.697455 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.697563 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:26.697690 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:26.697806 14446 planning_component.cc:157] Input check failed
+E0115 10:51:26.757419 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.797399 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:26.797569 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:26.797724 14450 planning_component.cc:157] Input check failed
+E0115 10:51:26.807512 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.857609 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.898064 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:26.898263 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:26.898416 14456 planning_component.cc:157] Input check failed
+E0115 10:51:26.907709 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.967603 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:26.997586 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:26.997751 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:26.997905 14446 planning_component.cc:157] Input check failed
+E0115 10:51:27.017712 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.077395 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.097504 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:27.097656 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:27.097786 14452 planning_component.cc:157] Input check failed
+E0115 10:51:27.127463 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.187245 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.197291 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:27.197403 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:27.197487 14456 planning_component.cc:157] Input check failed
+E0115 10:51:27.237413 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.287462 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.297317 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:27.297431 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:27.297510 14459 planning_component.cc:157] Input check failed
+E0115 10:51:27.347162 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.397259 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.397361 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:27.397481 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:27.397580 14448 planning_component.cc:157] Input check failed
+E0115 10:51:27.447327 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.497387 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.497519 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:27.497633 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:27.497731 14447 planning_component.cc:157] Input check failed
+E0115 10:51:27.547478 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.597352 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:27.597502 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:27.597604 14449 planning_component.cc:157] Input check failed
+E0115 10:51:27.597616 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.657192 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.697707 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:27.697845 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:27.697935 14455 planning_component.cc:157] Input check failed
+E0115 10:51:27.707384 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.767390 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.797655 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:27.797778 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:27.797880 14451 planning_component.cc:157] Input check failed
+E0115 10:51:27.827312 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.877405 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.897300 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:27.897430 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:27.897531 14449 planning_component.cc:157] Input check failed
+E0115 10:51:27.937325 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.997383 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:27.997629 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:27.997747 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:27.997884 14456 planning_component.cc:157] Input check failed
+E0115 10:51:28.047463 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.097668 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.097723 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:28.097812 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:28.097891 14459 planning_component.cc:157] Input check failed
+E0115 10:51:28.157348 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.197554 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:28.197721 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:28.197860 14449 planning_component.cc:157] Input check failed
+E0115 10:51:28.207414 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.257577 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.297607 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:28.297803 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:28.297971 14461 planning_component.cc:157] Input check failed
+E0115 10:51:28.317497 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.377430 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.397636 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:28.397778 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:28.397918 14453 planning_component.cc:157] Input check failed
+E0115 10:51:28.427644 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.487254 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.497411 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:28.497557 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:28.497689 14449 planning_component.cc:157] Input check failed
+E0115 10:51:28.537313 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.587422 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.597513 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:28.597695 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:28.597862 14461 planning_component.cc:157] Input check failed
+E0115 10:51:28.647434 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.697399 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:28.697525 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:28.697587 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.697616 14458 planning_component.cc:157] Input check failed
+E0115 10:51:28.757387 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.797416 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:28.797561 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:28.797677 14457 planning_component.cc:157] Input check failed
+E0115 10:51:28.807441 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.867249 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.897518 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:28.897694 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:28.897851 14461 planning_component.cc:157] Input check failed
+E0115 10:51:28.917614 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.977291 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:28.997337 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:28.997483 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:28.997587 14454 planning_component.cc:157] Input check failed
+E0115 10:51:29.027341 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.077419 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.097379 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:29.097532 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:29.097669 14447 planning_component.cc:157] Input check failed
+E0115 10:51:29.127485 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.187606 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.197515 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:29.197688 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:29.197849 14461 planning_component.cc:157] Input check failed
+E0115 10:51:29.247336 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.297549 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.297636 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:29.297773 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:29.297905 14454 planning_component.cc:157] Input check failed
+E0115 10:51:29.347641 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.397744 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.397747 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:29.397992 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:29.398185 14447 planning_component.cc:157] Input check failed
+E0115 10:51:29.457474 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.497596 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:29.497804 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:29.497969 14461 planning_component.cc:157] Input check failed
+E0115 10:51:29.507589 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.567410 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.597543 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:29.597766 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:29.597915 14456 planning_component.cc:157] Input check failed
+E0115 10:51:29.617656 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.677294 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.697512 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:29.697710 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:29.697880 14447 planning_component.cc:157] Input check failed
+E0115 10:51:29.727439 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.777534 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.797515 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:29.797691 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:29.797847 14458 planning_component.cc:157] Input check failed
+E0115 10:51:29.827742 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.887624 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.897540 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:29.897723 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:29.897898 14456 planning_component.cc:157] Input check failed
+E0115 10:51:29.937721 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.997279 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:29.997606 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:29.997771 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:29.997898 14453 planning_component.cc:157] Input check failed
+E0115 10:51:30.047509 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.097376 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:30.097508 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:30.097584 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.097621 14449 planning_component.cc:157] Input check failed
+E0115 10:51:30.157105 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.197429 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:30.197557 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:30.197661 14451 planning_component.cc:157] Input check failed
+E0115 10:51:30.207288 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.267222 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.297430 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:30.297549 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:30.297632 14453 planning_component.cc:157] Input check failed
+E0115 10:51:30.317301 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.367513 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.397364 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:30.397485 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:30.397567 14449 planning_component.cc:157] Input check failed
+E0115 10:51:30.427261 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.477414 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.497216 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:30.497331 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:30.497429 14451 planning_component.cc:157] Input check failed
+E0115 10:51:30.537176 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.587247 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.597282 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:30.597388 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:30.597565 14458 planning_component.cc:157] Input check failed
+E0115 10:51:30.637300 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.697294 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.697353 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:30.697449 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:30.697530 14457 planning_component.cc:157] Input check failed
+E0115 10:51:30.757216 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.797302 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:30.797423 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:30.797541 14451 planning_component.cc:157] Input check failed
+E0115 10:51:30.807327 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.867244 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.897365 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:30.897475 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:30.897578 14460 planning_component.cc:157] Input check failed
+E0115 10:51:30.917289 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.967438 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:30.997339 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:30.997457 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:30.997540 14449 planning_component.cc:157] Input check failed
+E0115 10:51:31.027307 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.077354 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.097455 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:31.097574 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:31.097673 14448 planning_component.cc:157] Input check failed
+E0115 10:51:31.127401 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.187397 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.197314 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:31.197434 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:31.197536 14460 planning_component.cc:157] Input check failed
+E0115 10:51:31.247471 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.297473 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:31.297583 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:31.297664 14455 planning_component.cc:157] Input check failed
+E0115 10:51:31.297670 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.357270 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.397308 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:31.397424 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:31.397508 14446 planning_component.cc:157] Input check failed
+E0115 10:51:31.407335 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.457384 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.497555 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:31.497681 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:31.497785 14460 planning_component.cc:157] Input check failed
+E0115 10:51:31.507553 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.567692 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.597476 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:31.597602 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:31.597707 14452 planning_component.cc:157] Input check failed
+E0115 10:51:31.627154 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.677260 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.697207 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:31.697337 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:31.697446 14446 planning_component.cc:157] Input check failed
+E0115 10:51:31.727300 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.777367 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.797669 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:31.797780 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:31.797865 14450 planning_component.cc:157] Input check failed
+E0115 10:51:31.827500 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.887429 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.897493 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:31.897606 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:31.897691 14448 planning_component.cc:157] Input check failed
+E0115 10:51:31.947508 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:31.997398 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:31.997521 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:31.997632 14446 planning_component.cc:157] Input check failed
+E0115 10:51:31.997658 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.057327 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.097628 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:32.097754 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:32.097855 14451 planning_component.cc:157] Input check failed
+E0115 10:51:32.107375 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.167459 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.197388 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:32.197497 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:32.197587 14448 planning_component.cc:157] Input check failed
+E0115 10:51:32.227227 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.277348 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.297240 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:32.297363 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:32.297461 14454 planning_component.cc:157] Input check failed
+E0115 10:51:32.327410 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.387290 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.397301 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:32.397430 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:32.397542 14455 planning_component.cc:157] Input check failed
+E0115 10:51:32.447207 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.497277 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.497332 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:32.497426 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:32.497516 14448 planning_component.cc:157] Input check failed
+E0115 10:51:32.547369 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.597400 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:32.597424 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.597510 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:32.597589 14447 planning_component.cc:157] Input check failed
+E0115 10:51:32.657204 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.697346 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:32.697479 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:32.697582 14455 planning_component.cc:157] Input check failed
+E0115 10:51:32.707265 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.757333 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.797292 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:32.797405 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:32.797490 14448 planning_component.cc:157] Input check failed
+E0115 10:51:32.817267 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.867367 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.897440 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:32.897562 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:32.897665 14449 planning_component.cc:157] Input check failed
+E0115 10:51:32.927269 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.977480 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:32.997406 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:32.997525 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:32.997624 14455 planning_component.cc:157] Input check failed
+E0115 10:51:33.037252 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.087296 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.097317 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:33.097440 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:33.097540 14448 planning_component.cc:157] Input check failed
+E0115 10:51:33.147147 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.197258 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.197342 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:33.197453 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:33.197557 14449 planning_component.cc:157] Input check failed
+E0115 10:51:33.247393 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.297310 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:33.297441 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:33.297544 14456 planning_component.cc:157] Input check failed
+E0115 10:51:33.297562 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.357280 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.397279 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:33.397403 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:33.397511 14448 planning_component.cc:157] Input check failed
+E0115 10:51:33.407328 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.467289 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.497351 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:33.497465 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:33.497546 14453 planning_component.cc:157] Input check failed
+E0115 10:51:33.527249 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.577378 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.597425 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:33.597535 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:33.597618 14457 planning_component.cc:157] Input check failed
+E0115 10:51:33.627475 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.687283 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.697268 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:33.697388 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:33.697489 14448 planning_component.cc:157] Input check failed
+E0115 10:51:33.737377 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.797434 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.797521 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:33.797629 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:33.797715 14453 planning_component.cc:157] Input check failed
+E0115 10:51:33.857241 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.897410 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:33.897534 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:33.897639 14454 planning_component.cc:157] Input check failed
+E0115 10:51:33.907294 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.957340 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:33.997351 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:33.997473 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:33.997565 14452 planning_component.cc:157] Input check failed
+E0115 10:51:34.007390 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.067487 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.097291 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:34.097409 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:34.097498 14453 planning_component.cc:157] Input check failed
+E0115 10:51:34.127198 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.177292 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.197289 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:34.197398 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:34.197484 14450 planning_component.cc:157] Input check failed
+E0115 10:51:34.227360 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.287230 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.297386 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:34.297497 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:34.297580 14449 planning_component.cc:157] Input check failed
+E0115 10:51:34.337302 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.387344 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.397348 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:34.397472 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:34.397581 14446 planning_component.cc:157] Input check failed
+E0115 10:51:34.447438 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.497418 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:34.497507 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.497532 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:34.497615 14450 planning_component.cc:157] Input check failed
+E0115 10:51:34.557339 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.597405 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:34.597523 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:34.597609 14456 planning_component.cc:157] Input check failed
+E0115 10:51:34.617174 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.667346 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.697245 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:34.697383 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:34.697491 14446 planning_component.cc:157] Input check failed
+E0115 10:51:34.717399 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.777253 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.797314 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:34.797431 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:34.797521 14450 planning_component.cc:157] Input check failed
+E0115 10:51:34.827402 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.887418 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.897336 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:34.897457 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:34.897567 14460 planning_component.cc:157] Input check failed
+E0115 10:51:34.947182 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.997306 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:34.997383 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:34.997489 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:34.997594 14446 planning_component.cc:157] Input check failed
+E0115 10:51:35.057222 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.097355 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:35.097477 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:35.097580 14455 planning_component.cc:157] Input check failed
+E0115 10:51:35.107298 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.157353 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.197278 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:35.197405 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:35.197520 14460 planning_component.cc:157] Input check failed
+E0115 10:51:35.217258 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.267320 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.297291 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:35.297415 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:35.297533 14446 planning_component.cc:157] Input check failed
+E0115 10:51:35.317422 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.377482 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.397327 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:35.397461 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:35.397550 14455 planning_component.cc:157] Input check failed
+E0115 10:51:35.437297 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.497347 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.497407 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:35.497542 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:35.497661 14447 planning_component.cc:157] Input check failed
+E0115 10:51:35.557255 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.597326 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:35.597462 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:35.597569 14446 planning_component.cc:157] Input check failed
+E0115 10:51:35.607396 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.667467 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.697288 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:35.697402 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:35.697480 14453 planning_component.cc:157] Input check failed
+E0115 10:51:35.727433 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.787235 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.797369 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:35.797469 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:35.797551 14461 planning_component.cc:157] Input check failed
+E0115 10:51:35.847246 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.897212 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:35.897336 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:35.897346 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.897439 14446 planning_component.cc:157] Input check failed
+E0115 10:51:35.957237 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:35.997299 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:35.997416 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:35.997498 14453 planning_component.cc:157] Input check failed
+E0115 10:51:36.007334 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.067302 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.097357 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:36.097481 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:36.097579 14459 planning_component.cc:157] Input check failed
+E0115 10:51:36.117357 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.177263 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.197311 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:36.197432 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:36.197521 14451 planning_component.cc:157] Input check failed
+E0115 10:51:36.237180 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.287278 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.297253 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:36.297370 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:36.297475 14454 planning_component.cc:157] Input check failed
+E0115 10:51:36.347267 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.397333 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:36.397379 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.397460 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:36.397570 14452 planning_component.cc:157] Input check failed
+E0115 10:51:36.457361 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.497334 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:36.497465 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:36.497579 14449 planning_component.cc:157] Input check failed
+E0115 10:51:36.507491 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.567335 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.597288 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:36.597401 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:36.597486 14448 planning_component.cc:157] Input check failed
+E0115 10:51:36.627424 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.687280 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.697419 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:36.697546 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:36.697655 14452 planning_component.cc:157] Input check failed
+E0115 10:51:36.737342 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.787391 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.797349 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:36.797468 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:36.797572 14458 planning_component.cc:157] Input check failed
+E0115 10:51:36.847167 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.897331 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.897388 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:36.897485 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:36.897568 14461 planning_component.cc:157] Input check failed
+E0115 10:51:36.957211 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:36.997479 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:36.997592 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:36.997674 14451 planning_component.cc:157] Input check failed
+E0115 10:51:37.007431 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.067391 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.097350 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:37.097468 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:37.097566 14460 planning_component.cc:157] Input check failed
+E0115 10:51:37.117455 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.177316 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.197327 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:37.197448 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:37.197548 14456 planning_component.cc:157] Input check failed
+E0115 10:51:37.237352 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.297385 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.297446 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:37.297549 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:37.297631 14451 planning_component.cc:157] Input check failed
+E0115 10:51:37.357224 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.397759 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:37.397893 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:37.398011 14459 planning_component.cc:157] Input check failed
+E0115 10:51:37.407361 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.467391 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.497345 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:37.497458 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:37.497541 14446 planning_component.cc:157] Input check failed
+E0115 10:51:37.527324 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.577386 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.597417 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:37.597537 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:37.597642 14458 planning_component.cc:157] Input check failed
+E0115 10:51:37.637267 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.687315 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.697616 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:37.697729 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:37.697811 14461 planning_component.cc:157] Input check failed
+E0115 10:51:37.737408 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.797271 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.797428 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:37.797538 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:37.797626 14455 planning_component.cc:157] Input check failed
+E0115 10:51:37.857172 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.897364 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:37.897483 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:37.897591 14460 planning_component.cc:157] Input check failed
+E0115 10:51:37.907333 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.957448 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:37.997406 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:37.997534 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:37.997640 14450 planning_component.cc:157] Input check failed
+E0115 10:51:38.017261 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.067512 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.097473 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:38.097584 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:38.097671 14451 planning_component.cc:157] Input check failed
+E0115 10:51:38.127396 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.177462 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.197402 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:38.197520 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:38.197623 14460 planning_component.cc:157] Input check failed
+E0115 10:51:38.237198 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.287395 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.297348 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:38.297464 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:38.297562 14456 planning_component.cc:157] Input check failed
+E0115 10:51:38.337455 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.397317 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.397545 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:38.397652 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:38.397750 14447 planning_component.cc:157] Input check failed
+E0115 10:51:38.447468 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.497409 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:38.497539 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:38.497642 14460 planning_component.cc:157] Input check failed
+E0115 10:51:38.497659 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.557334 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.597509 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:38.597617 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:38.597700 14455 planning_component.cc:157] Input check failed
+E0115 10:51:38.607396 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.667402 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.697417 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:38.697538 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:38.697641 14454 planning_component.cc:157] Input check failed
+E0115 10:51:38.727159 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.777374 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.797433 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:38.797546 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:38.797631 14453 planning_component.cc:157] Input check failed
+E0115 10:51:38.837234 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.887305 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.897313 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:38.897426 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:38.897512 14446 planning_component.cc:157] Input check failed
+E0115 10:51:38.947337 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.997427 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:38.997494 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:38.997601 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:38.997699 14459 planning_component.cc:157] Input check failed
+E0115 10:51:39.047478 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.097317 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:39.097445 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:39.097548 14449 planning_component.cc:157] Input check failed
+E0115 10:51:39.097565 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.157411 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.197664 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:39.197799 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:39.197918 14458 planning_component.cc:157] Input check failed
+E0115 10:51:39.217381 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.277319 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.297454 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:39.297576 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:39.297677 14460 planning_component.cc:157] Input check failed
+E0115 10:51:39.327399 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.387320 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.397380 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:39.397513 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:39.397619 14449 planning_component.cc:157] Input check failed
+E0115 10:51:39.447314 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.497408 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.497464 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:39.497582 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:39.497692 14458 planning_component.cc:157] Input check failed
+E0115 10:51:39.547487 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.597328 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:39.597460 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:39.597568 14460 planning_component.cc:157] Input check failed
+E0115 10:51:39.597584 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.657207 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.697314 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:39.697446 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:39.697569 14449 planning_component.cc:157] Input check failed
+E0115 10:51:39.707329 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.757370 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.797569 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:39.797680 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:39.797760 14459 planning_component.cc:157] Input check failed
+E0115 10:51:39.817283 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.867525 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.897529 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:39.897672 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:39.897796 14456 planning_component.cc:157] Input check failed
+E0115 10:51:39.927345 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.987339 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:39.997474 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:39.997582 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:39.997670 14452 planning_component.cc:157] Input check failed
+E0115 10:51:40.037387 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.087493 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.097446 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:40.097568 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:40.097658 14448 planning_component.cc:157] Input check failed
+E0115 10:51:40.147261 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.197340 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:40.197345 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.197474 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:40.197574 14456 planning_component.cc:157] Input check failed
+E0115 10:51:40.247412 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.297312 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:40.297434 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:40.297538 14447 planning_component.cc:157] Input check failed
+E0115 10:51:40.297559 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.357254 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.397333 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:40.397459 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:40.397564 14450 planning_component.cc:157] Input check failed
+E0115 10:51:40.407428 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.467433 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.497323 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:40.497449 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:40.497555 14456 planning_component.cc:157] Input check failed
+E0115 10:51:40.527245 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.587314 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.597398 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:40.597510 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:40.597659 14454 planning_component.cc:157] Input check failed
+E0115 10:51:40.647385 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.697458 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.697522 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:40.697707 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:40.697815 14457 planning_component.cc:157] Input check failed
+E0115 10:51:40.757230 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.797552 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:40.797688 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:40.797806 14458 planning_component.cc:157] Input check failed
+E0115 10:51:40.807356 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.867274 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.897218 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:40.897334 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:40.897415 14459 planning_component.cc:157] Input check failed
+E0115 10:51:40.927364 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.977411 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:40.997526 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:40.997639 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:40.997725 14451 planning_component.cc:157] Input check failed
+E0115 10:51:41.037317 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.097342 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.097378 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:41.097478 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:41.097558 14458 planning_component.cc:157] Input check failed
+E0115 10:51:41.147537 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.197284 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:41.197419 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:41.197520 14459 planning_component.cc:157] Input check failed
+E0115 10:51:41.207289 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.267295 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.297223 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:41.297330 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:41.297407 14446 planning_component.cc:157] Input check failed
+E0115 10:51:41.317342 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.367556 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.397341 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:41.397461 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:41.397548 14458 planning_component.cc:157] Input check failed
+E0115 10:51:41.427301 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.477445 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.497452 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:41.497570 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:41.497663 14457 planning_component.cc:157] Input check failed
+E0115 10:51:41.537145 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.587366 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.597455 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:41.597565 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:41.597652 14446 planning_component.cc:157] Input check failed
+E0115 10:51:41.647272 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.697357 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.697397 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:41.697497 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:41.697580 14458 planning_component.cc:157] Input check failed
+E0115 10:51:41.747418 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.797339 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:41.797466 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:41.797566 14453 planning_component.cc:157] Input check failed
+E0115 10:51:41.797583 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.857309 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.897547 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:41.897663 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:41.897745 14448 planning_component.cc:157] Input check failed
+E0115 10:51:41.907653 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.967384 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:41.997501 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:41.997627 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:41.997728 14450 planning_component.cc:157] Input check failed
+E0115 10:51:42.017465 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.067518 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.097353 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:42.097481 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:42.097589 14451 planning_component.cc:157] Input check failed
+E0115 10:51:42.127434 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.187263 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.197335 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:42.197438 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:42.197525 14448 planning_component.cc:157] Input check failed
+E0115 10:51:42.237305 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.297113 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.297343 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:42.297456 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:42.297562 14449 planning_component.cc:157] Input check failed
+E0115 10:51:42.347335 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.397274 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:42.397398 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:42.397500 14451 planning_component.cc:157] Input check failed
+E0115 10:51:42.397519 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.457270 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.497498 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:42.497622 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:42.497735 14460 planning_component.cc:157] Input check failed
+E0115 10:51:42.507349 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.567503 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.597307 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:42.597429 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:42.597514 14457 planning_component.cc:157] Input check failed
+E0115 10:51:42.627254 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.677304 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.697371 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:42.697535 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:42.697633 14446 planning_component.cc:157] Input check failed
+E0115 10:51:42.727349 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.787483 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.797425 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:42.797552 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:42.797657 14460 planning_component.cc:157] Input check failed
+E0115 10:51:42.847337 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.897207 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:42.897315 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:42.897397 14457 planning_component.cc:157] Input check failed
+E0115 10:51:42.897403 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.947439 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:42.997320 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:42.997432 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:42.997511 14451 planning_component.cc:157] Input check failed
+E0115 10:51:42.997517 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.047641 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.097419 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:43.097549 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:43.097652 14460 planning_component.cc:157] Input check failed
+E0115 10:51:43.107247 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.157290 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.197412 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:43.197539 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:43.197644 14461 planning_component.cc:157] Input check failed
+E0115 10:51:43.207334 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.257371 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.297307 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:43.297425 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:43.297510 14451 planning_component.cc:157] Input check failed
+E0115 10:51:43.317286 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.367367 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.397321 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:43.397449 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:43.397548 14460 planning_component.cc:157] Input check failed
+E0115 10:51:43.427165 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.477218 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.497300 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:43.497416 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:43.497498 14446 planning_component.cc:157] Input check failed
+E0115 10:51:43.527276 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.587261 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.597442 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:43.597566 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:43.597671 14459 planning_component.cc:157] Input check failed
+E0115 10:51:43.647239 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.697317 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.697386 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:43.697490 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:43.697597 14460 planning_component.cc:157] Input check failed
+E0115 10:51:43.747368 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.797324 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:43.797420 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.797432 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:43.797516 14446 planning_component.cc:157] Input check failed
+E0115 10:51:43.857398 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.897356 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:43.897485 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:43.897588 14459 planning_component.cc:157] Input check failed
+E0115 10:51:43.917336 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.977231 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:43.997422 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:43.997540 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:43.997644 14454 planning_component.cc:157] Input check failed
+E0115 10:51:44.037158 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.087293 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.097283 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:44.097410 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:44.097524 14450 planning_component.cc:157] Input check failed
+E0115 10:51:44.147447 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.197228 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:44.197355 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:44.197465 14459 planning_component.cc:157] Input check failed
+E0115 10:51:44.197484 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.257167 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.297333 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:44.297456 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:44.297557 14454 planning_component.cc:157] Input check failed
+E0115 10:51:44.307224 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.357295 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.397259 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:44.397382 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:44.397492 14450 planning_component.cc:157] Input check failed
+E0115 10:51:44.417359 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.467430 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.497402 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:44.497522 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:44.497632 14459 planning_component.cc:157] Input check failed
+E0115 10:51:44.527241 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.577329 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.597204 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:44.597318 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:44.597419 14454 planning_component.cc:157] Input check failed
+E0115 10:51:44.627379 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.687178 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.697312 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:44.697432 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:44.697538 14450 planning_component.cc:157] Input check failed
+E0115 10:51:44.737285 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.787340 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.797348 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:44.797466 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:44.797549 14459 planning_component.cc:157] Input check failed
+E0115 10:51:44.847234 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.897290 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.897361 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:44.897464 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:44.897563 14449 planning_component.cc:157] Input check failed
+E0115 10:51:44.957211 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:44.997332 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:44.997457 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:44.997560 14450 planning_component.cc:157] Input check failed
+E0115 10:51:45.007315 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.067251 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.097365 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:45.097474 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:45.097558 14458 planning_component.cc:157] Input check failed
+E0115 10:51:45.117295 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.167358 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.197466 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:45.197592 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:45.197690 14453 planning_component.cc:157] Input check failed
+E0115 10:51:45.227249 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.287286 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.297395 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:45.297515 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:45.297611 14450 planning_component.cc:157] Input check failed
+E0115 10:51:45.347131 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.397176 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.397207 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:45.397315 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:45.397416 14458 planning_component.cc:157] Input check failed
+E0115 10:51:45.447410 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.497442 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:45.497503 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.497553 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:45.497634 14453 planning_component.cc:157] Input check failed
+E0115 10:51:45.557210 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.597306 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:45.597424 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:45.597522 14450 planning_component.cc:157] Input check failed
+E0115 10:51:45.607291 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.667173 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.697309 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:45.697429 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:45.697530 14449 planning_component.cc:157] Input check failed
+E0115 10:51:45.717226 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.767290 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.797336 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:45.797451 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:45.797531 14453 planning_component.cc:157] Input check failed
+E0115 10:51:45.817333 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.877192 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.897667 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:45.897796 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:45.897912 14446 planning_component.cc:157] Input check failed
+E0115 10:51:45.927250 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.987227 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:45.997308 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:45.997412 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:45.997494 14457 planning_component.cc:157] Input check failed
+E0115 10:51:46.037310 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.097322 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.097388 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:46.097482 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:46.097613 14452 planning_component.cc:157] Input check failed
+E0115 10:51:46.157187 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.197214 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:46.197342 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:46.197449 14448 planning_component.cc:157] Input check failed
+E0115 10:51:46.207253 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.257347 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.297317 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:46.297430 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:46.297508 14457 planning_component.cc:157] Input check failed
+E0115 10:51:46.317221 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.367373 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.397435 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:46.397547 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:46.397640 14459 planning_component.cc:157] Input check failed
+E0115 10:51:46.427446 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.487258 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.497187 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:46.497294 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:46.497375 14458 planning_component.cc:157] Input check failed
+E0115 10:51:46.537367 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.587469 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.597443 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:46.597555 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:46.597642 14455 planning_component.cc:157] Input check failed
+E0115 10:51:46.647486 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.697242 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:46.697367 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:46.697468 14459 planning_component.cc:157] Input check failed
+E0115 10:51:46.707155 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.757239 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.797366 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:46.797472 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:46.797551 14447 planning_component.cc:157] Input check failed
+E0115 10:51:46.807277 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.867245 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.897619 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:46.897728 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:46.897812 14452 planning_component.cc:157] Input check failed
+E0115 10:51:46.927131 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.977231 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:46.997331 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:46.997452 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:46.997550 14450 planning_component.cc:157] Input check failed
+E0115 10:51:47.027345 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.087272 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.097345 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:47.097460 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:47.097558 14447 planning_component.cc:157] Input check failed
+E0115 10:51:47.147352 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.197265 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:47.197373 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:47.197453 14452 planning_component.cc:157] Input check failed
+E0115 10:51:47.197459 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.257190 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.297194 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:47.297302 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:47.297382 14448 planning_component.cc:157] Input check failed
+E0115 10:51:47.307307 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.367400 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.397284 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:47.397400 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:47.397482 14457 planning_component.cc:157] Input check failed
+E0115 10:51:47.427143 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.477248 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.497284 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:47.497409 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:47.497519 14446 planning_component.cc:157] Input check failed
+E0115 10:51:47.527324 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.577376 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.597302 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:47.597412 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:47.597492 14448 planning_component.cc:157] Input check failed
+E0115 10:51:47.637118 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.687243 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.697352 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:47.697468 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:47.697569 14455 planning_component.cc:157] Input check failed
+E0115 10:51:47.747236 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.797230 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:47.797328 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.797356 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:47.797462 14446 planning_component.cc:157] Input check failed
+E0115 10:51:47.857082 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.897341 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:47.897449 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:47.897531 14447 planning_component.cc:157] Input check failed
+E0115 10:51:47.907296 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.967344 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:47.997243 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:47.997355 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:47.997435 14455 planning_component.cc:157] Input check failed
+E0115 10:51:48.027318 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.087234 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.097506 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:48.097628 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:48.097728 14449 planning_component.cc:157] Input check failed
+E0115 10:51:48.147312 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.197392 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.197436 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:48.197547 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:48.197630 14461 planning_component.cc:157] Input check failed
+E0115 10:51:48.247450 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.297315 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:48.297420 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:48.297500 14451 planning_component.cc:157] Input check failed
+E0115 10:51:48.297508 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.357226 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.397289 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:48.397414 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:48.397519 14449 planning_component.cc:157] Input check failed
+E0115 10:51:48.407274 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.457326 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.497336 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:48.497448 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:48.497532 14461 planning_component.cc:157] Input check failed
+E0115 10:51:48.507371 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.567399 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.597415 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:48.597527 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:48.597609 14451 planning_component.cc:157] Input check failed
+E0115 10:51:48.627261 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.687386 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.697393 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:48.697515 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:48.697621 14460 planning_component.cc:157] Input check failed
+E0115 10:51:48.747380 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.797312 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:48.797427 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:48.797508 14452 planning_component.cc:157] Input check failed
+E0115 10:51:48.797514 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.857232 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.897444 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:48.897560 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:48.897662 14456 planning_component.cc:157] Input check failed
+E0115 10:51:48.907289 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.967262 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:48.997555 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:48.997689 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:48.997794 14453 planning_component.cc:157] Input check failed
+E0115 10:51:49.017318 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.067368 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.097390 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:49.097512 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:49.097618 14446 planning_component.cc:157] Input check failed
+E0115 10:51:49.127521 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.187455 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.197439 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:49.197567 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:49.197674 14456 planning_component.cc:157] Input check failed
+E0115 10:51:49.247287 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.297345 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.297346 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:49.297482 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:49.297583 14453 planning_component.cc:157] Input check failed
+E0115 10:51:49.347534 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.397585 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.397655 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:49.397773 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:49.397876 14450 planning_component.cc:157] Input check failed
+E0115 10:51:49.457314 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.497594 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:49.497720 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:49.497824 14447 planning_component.cc:157] Input check failed
+E0115 10:51:49.507406 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.557504 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.597415 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:49.597540 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:49.597640 14453 planning_component.cc:157] Input check failed
+E0115 10:51:49.617342 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.667394 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.697319 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:49.697436 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:49.697518 14450 planning_component.cc:157] Input check failed
+E0115 10:51:49.727161 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.777211 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.797354 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:49.797485 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:49.797590 14460 planning_component.cc:157] Input check failed
+E0115 10:51:49.827354 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.887434 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.897519 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:49.897644 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:49.897754 14446 planning_component.cc:157] Input check failed
+E0115 10:51:49.947333 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.997329 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:49.997373 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:49.997452 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:49.997553 14450 planning_component.cc:157] Input check failed
+E0115 10:51:50.047411 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.097406 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:50.097466 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.097532 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:50.097630 14460 planning_component.cc:157] Input check failed
+E0115 10:51:50.157287 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.197410 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:50.197543 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:50.197649 14446 planning_component.cc:157] Input check failed
+E0115 10:51:50.217254 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.267334 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.297452 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:50.297581 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:50.297693 14456 planning_component.cc:157] Input check failed
+E0115 10:51:50.327204 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.387168 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.397370 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:50.397491 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:50.397596 14453 planning_component.cc:157] Input check failed
+E0115 10:51:50.437389 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.497313 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.497380 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:50.497488 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:50.497598 14446 planning_component.cc:157] Input check failed
+E0115 10:51:50.547430 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.597308 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:50.597429 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:50.597534 14456 planning_component.cc:157] Input check failed
+E0115 10:51:50.597553 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.657240 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.697383 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:50.697506 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:50.697608 14453 planning_component.cc:157] Input check failed
+E0115 10:51:50.707430 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.767185 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.797518 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:50.797633 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:50.797714 14447 planning_component.cc:157] Input check failed
+E0115 10:51:50.817234 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.867451 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.897485 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:50.897611 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:50.897714 14456 planning_component.cc:157] Input check failed
+E0115 10:51:50.927314 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.977380 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:50.997375 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:50.997529 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:50.997658 14458 planning_component.cc:157] Input check failed
+E0115 10:51:51.037369 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.097309 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.097348 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:51.097450 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:51.097538 14457 planning_component.cc:157] Input check failed
+E0115 10:51:51.157202 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.197396 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:51.197525 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:51.197631 14456 planning_component.cc:157] Input check failed
+E0115 10:51:51.207307 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.267385 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.297258 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:51.297384 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:51.297489 14458 planning_component.cc:157] Input check failed
+E0115 10:51:51.317445 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.377238 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.397433 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:51.397558 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:51.397661 14450 planning_component.cc:157] Input check failed
+E0115 10:51:51.427295 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.487373 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.497381 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:51.497509 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:51.497615 14456 planning_component.cc:157] Input check failed
+E0115 10:51:51.537484 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.597268 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.597352 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:51.597455 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:51.597553 14458 planning_component.cc:157] Input check failed
+E0115 10:51:51.647377 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.697322 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:51.697458 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:51.697468 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.697566 14450 planning_component.cc:157] Input check failed
+E0115 10:51:51.757261 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.797437 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:51.797565 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:51.797678 14456 planning_component.cc:157] Input check failed
+E0115 10:51:51.807338 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.867415 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.897332 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:51.897465 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:51.897578 14458 planning_component.cc:157] Input check failed
+E0115 10:51:51.927425 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.987262 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:51.997345 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:51.997473 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:51.997591 14450 planning_component.cc:157] Input check failed
+E0115 10:51:52.037431 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.097323 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.097388 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:52.097501 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:52.097610 14456 planning_component.cc:157] Input check failed
+E0115 10:51:52.147480 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.197325 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:52.197454 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:52.197556 14458 planning_component.cc:157] Input check failed
+E0115 10:51:52.197577 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.257364 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.297438 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:52.297566 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:52.297670 14450 planning_component.cc:157] Input check failed
+E0115 10:51:52.317222 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.367311 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.397361 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:52.397493 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:52.397609 14452 planning_component.cc:157] Input check failed
+E0115 10:51:52.427314 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.477495 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.497335 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:52.497458 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:52.497545 14460 planning_component.cc:157] Input check failed
+E0115 10:51:52.537258 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.587492 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.597400 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:52.597533 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:52.597651 14453 planning_component.cc:157] Input check failed
+E0115 10:51:52.647365 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.697289 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:52.697407 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:52.697440 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.697492 14452 planning_component.cc:157] Input check failed
+E0115 10:51:52.747476 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.797518 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.797550 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:52.797655 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:52.797753 14449 planning_component.cc:157] Input check failed
+E0115 10:51:52.857329 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.897341 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:52.897444 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:52.897527 14446 planning_component.cc:157] Input check failed
+E0115 10:51:52.907385 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.967276 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:52.997390 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:52.997521 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:52.997622 14457 planning_component.cc:157] Input check failed
+E0115 10:51:53.017330 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.067406 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.097344 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:53.097452 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:53.097535 14454 planning_component.cc:157] Input check failed
+E0115 10:51:53.127358 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.187429 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.197275 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:53.197402 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:53.197510 14448 planning_component.cc:157] Input check failed
+E0115 10:51:53.247398 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.297324 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:53.297451 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:53.297449 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.297541 14458 planning_component.cc:157] Input check failed
+E0115 10:51:53.347499 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.397555 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.397609 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:53.397722 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:53.397822 14456 planning_component.cc:157] Input check failed
+E0115 10:51:53.457316 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.497345 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:53.497455 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:53.497539 14452 planning_component.cc:157] Input check failed
+E0115 10:51:53.507359 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.567267 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.597247 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:53.597358 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:53.597445 14447 planning_component.cc:157] Input check failed
+E0115 10:51:53.627259 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.677662 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.697335 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:53.697484 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:53.697587 14456 planning_component.cc:157] Input check failed
+E0115 10:51:53.737219 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.787286 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.797504 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:53.797617 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:53.797701 14461 planning_component.cc:157] Input check failed
+E0115 10:51:53.847239 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.897296 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.897351 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:53.897444 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:53.897527 14458 planning_component.cc:157] Input check failed
+E0115 10:51:53.957111 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:53.997484 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:53.997603 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:53.997705 14448 planning_component.cc:157] Input check failed
+E0115 10:51:54.007174 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.057224 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.097347 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:54.097460 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:54.097546 14461 planning_component.cc:157] Input check failed
+E0115 10:51:54.107499 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.167304 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.197297 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:54.197417 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:54.197499 14458 planning_component.cc:157] Input check failed
+E0115 10:51:54.227205 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.277335 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.297367 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:54.297492 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:54.297590 14448 planning_component.cc:157] Input check failed
+E0115 10:51:54.327374 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.387151 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.397287 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:54.397398 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:54.397490 14461 planning_component.cc:157] Input check failed
+E0115 10:51:54.437227 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.487396 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.497344 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:54.497467 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:54.497572 14459 planning_component.cc:157] Input check failed
+E0115 10:51:54.547358 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.597363 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:54.597442 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.597513 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:54.597640 14448 planning_component.cc:157] Input check failed
+E0115 10:51:54.657092 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.697271 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:54.697392 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:54.697491 14449 planning_component.cc:157] Input check failed
+E0115 10:51:54.707194 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.757350 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.797528 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:54.797662 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:54.797762 14455 planning_component.cc:157] Input check failed
+E0115 10:51:54.807404 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.867295 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.897315 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:54.897449 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:54.897553 14448 planning_component.cc:157] Input check failed
+E0115 10:51:54.917344 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.967404 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:54.997370 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:54.997500 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:54.997602 14449 planning_component.cc:157] Input check failed
+E0115 10:51:55.027334 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.087286 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.097354 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:55.097469 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:55.097575 14455 planning_component.cc:157] Input check failed
+E0115 10:51:55.137336 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.197278 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.197331 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:55.197423 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:55.197506 14447 planning_component.cc:157] Input check failed
+E0115 10:51:55.247349 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.297317 14449 pnc_map.cc:267] Route is empty.
+E0115 10:51:55.297446 14449 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:55.297447 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.297556 14449 planning_component.cc:157] Input check failed
+E0115 10:51:55.357389 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.397320 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:55.397446 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:55.397553 14455 planning_component.cc:157] Input check failed
+E0115 10:51:55.407531 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.467253 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.497284 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:55.497390 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:55.497476 14447 planning_component.cc:157] Input check failed
+E0115 10:51:55.517365 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.567509 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.597343 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:55.597458 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:55.597543 14452 planning_component.cc:157] Input check failed
+E0115 10:51:55.627413 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.687374 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.697330 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:55.697468 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:55.697585 14455 planning_component.cc:157] Input check failed
+E0115 10:51:55.747282 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.797320 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:55.797344 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.797438 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:55.797520 14447 planning_component.cc:157] Input check failed
+E0115 10:51:55.847465 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.897346 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:55.897462 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:55.897542 14452 planning_component.cc:157] Input check failed
+E0115 10:51:55.897552 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.957230 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:55.997534 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:55.997658 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:55.997757 14454 planning_component.cc:157] Input check failed
+E0115 10:51:56.007356 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.067425 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.097395 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:56.097527 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:56.097635 14458 planning_component.cc:157] Input check failed
+E0115 10:51:56.127386 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.187255 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.197322 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:56.197449 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:56.197571 14457 planning_component.cc:157] Input check failed
+E0115 10:51:56.237314 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.297339 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.297416 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:56.297539 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:56.297652 14454 planning_component.cc:157] Input check failed
+E0115 10:51:56.357221 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.397425 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:56.397547 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:56.397647 14450 planning_component.cc:157] Input check failed
+E0115 10:51:56.407325 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.467283 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.497437 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:56.497560 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:56.497660 14455 planning_component.cc:157] Input check failed
+E0115 10:51:56.527379 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.577430 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.597323 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:56.597443 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:56.597529 14446 planning_component.cc:157] Input check failed
+E0115 10:51:56.637293 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.687398 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.697424 14451 pnc_map.cc:267] Route is empty.
+E0115 10:51:56.697546 14451 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:56.697647 14451 planning_component.cc:157] Input check failed
+E0115 10:51:56.747395 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.797454 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.797520 14459 pnc_map.cc:267] Route is empty.
+E0115 10:51:56.797629 14459 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:56.797739 14459 planning_component.cc:157] Input check failed
+E0115 10:51:56.857223 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.897356 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:56.897480 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:56.897583 14446 planning_component.cc:157] Input check failed
+E0115 10:51:56.907451 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.967236 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:56.997440 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:56.997552 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:56.997638 14460 planning_component.cc:157] Input check failed
+E0115 10:51:57.017279 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.067458 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.097347 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:57.097458 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:57.097544 14461 planning_component.cc:157] Input check failed
+E0115 10:51:57.127336 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.187350 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.197347 14446 pnc_map.cc:267] Route is empty.
+E0115 10:51:57.197469 14446 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:57.197568 14446 planning_component.cc:157] Input check failed
+E0115 10:51:57.237440 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.297286 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.297343 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:57.297434 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:57.297513 14457 planning_component.cc:157] Input check failed
+E0115 10:51:57.357307 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.397329 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:57.397460 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:57.397567 14454 planning_component.cc:157] Input check failed
+E0115 10:51:57.407354 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.467209 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.497573 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:57.497701 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:57.497812 14450 planning_component.cc:157] Input check failed
+E0115 10:51:57.517321 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.567377 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.597302 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:57.597414 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:57.597498 14457 planning_component.cc:157] Input check failed
+E0115 10:51:57.617455 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.667551 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.697335 14454 pnc_map.cc:267] Route is empty.
+E0115 10:51:57.697459 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:57.697561 14454 planning_component.cc:157] Input check failed
+E0115 10:51:57.727591 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.787505 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.797312 14450 pnc_map.cc:267] Route is empty.
+E0115 10:51:57.797428 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:57.797528 14450 planning_component.cc:157] Input check failed
+E0115 10:51:57.847369 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.897367 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:57.897415 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.897498 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:57.897608 14458 planning_component.cc:157] Input check failed
+E0115 10:51:57.957206 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:57.997355 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:57.997467 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:57.997550 14452 planning_component.cc:157] Input check failed
+E0115 10:51:58.007246 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.067417 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.097318 14460 pnc_map.cc:267] Route is empty.
+E0115 10:51:58.097433 14460 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:58.097522 14460 planning_component.cc:157] Input check failed
+E0115 10:51:58.127167 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.177212 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.197378 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:58.197501 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:58.197611 14458 planning_component.cc:157] Input check failed
+E0115 10:51:58.227308 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.277359 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.297322 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:58.297436 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:58.297516 14453 planning_component.cc:157] Input check failed
+E0115 10:51:58.337127 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.387183 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.397220 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:58.397344 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:58.397449 14448 planning_component.cc:157] Input check failed
+E0115 10:51:58.437273 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.487322 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.497311 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:58.497428 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:58.497534 14458 planning_component.cc:157] Input check failed
+E0115 10:51:58.547257 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.597308 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.597308 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:58.597443 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:58.597522 14453 planning_component.cc:157] Input check failed
+E0115 10:51:58.657171 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.697332 14461 pnc_map.cc:267] Route is empty.
+E0115 10:51:58.697444 14461 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:58.697531 14461 planning_component.cc:157] Input check failed
+E0115 10:51:58.707231 14456 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.757298 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.797355 14458 pnc_map.cc:267] Route is empty.
+E0115 10:51:58.797492 14458 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:58.797600 14458 planning_component.cc:157] Input check failed
+E0115 10:51:58.807394 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.867296 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.897307 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:58.897423 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:58.897502 14453 planning_component.cc:157] Input check failed
+E0115 10:51:58.917351 14447 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.967445 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:58.997269 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:58.997386 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:58.997474 14447 planning_component.cc:157] Input check failed
+E0115 10:51:59.027261 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.077327 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.097312 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:59.097425 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:59.097507 14452 planning_component.cc:157] Input check failed
+E0115 10:51:59.127380 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.187285 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.197345 14457 pnc_map.cc:267] Route is empty.
+E0115 10:51:59.197468 14457 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:59.197572 14457 planning_component.cc:157] Input check failed
+E0115 10:51:59.237358 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.297344 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.297412 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:59.297518 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:59.297607 14447 planning_component.cc:157] Input check failed
+E0115 10:51:59.347404 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.397289 14452 pnc_map.cc:267] Route is empty.
+E0115 10:51:59.397410 14452 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:59.397475 14460 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.397502 14452 planning_component.cc:157] Input check failed
+E0115 10:51:59.457175 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.497231 14448 pnc_map.cc:267] Route is empty.
+E0115 10:51:59.497354 14448 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:59.497458 14448 planning_component.cc:157] Input check failed
+E0115 10:51:59.507215 14446 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.567314 14457 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.597340 14447 pnc_map.cc:267] Route is empty.
+E0115 10:51:59.597460 14447 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:59.597543 14447 planning_component.cc:157] Input check failed
+E0115 10:51:59.617391 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.677198 14455 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.697402 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:59.697513 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:59.697592 14453 planning_component.cc:157] Input check failed
+E0115 10:51:59.727293 14454 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.777402 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.797370 14456 pnc_map.cc:267] Route is empty.
+E0115 10:51:59.797497 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:59.797593 14456 planning_component.cc:157] Input check failed
+E0115 10:51:59.827531 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.887290 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.897361 14455 pnc_map.cc:267] Route is empty.
+E0115 10:51:59.897480 14455 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:59.897583 14455 planning_component.cc:157] Input check failed
+E0115 10:51:59.937347 14448 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.997278 14453 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:51:59.997345 14453 pnc_map.cc:267] Route is empty.
+E0115 10:51:59.997435 14453 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:51:59.997514 14453 planning_component.cc:157] Input check failed
+E0115 10:52:00.047329 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:52:00.097318 14456 pnc_map.cc:267] Route is empty.
+E0115 10:52:00.097379 14458 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:52:00.097440 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:52:00.097539 14456 planning_component.cc:157] Input check failed
+E0115 10:52:00.147493 14461 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:52:00.197315 14450 pnc_map.cc:267] Route is empty.
+E0115 10:52:00.197440 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:52:00.197553 14450 planning_component.cc:157] Input check failed
+E0115 10:52:00.197571 14450 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:52:00.257107 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:52:00.297390 14454 pnc_map.cc:267] Route is empty.
+E0115 10:52:00.297510 14454 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:52:00.297618 14454 planning_component.cc:157] Input check failed
+E0115 10:52:00.307168 14451 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:52:00.357229 14459 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:52:00.397315 14456 pnc_map.cc:267] Route is empty.
+E0115 10:52:00.397440 14456 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:52:00.397553 14456 planning_component.cc:157] Input check failed
+E0115 10:52:00.417297 14452 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:52:00.467350 14449 reference_line_provider.cc:195] Routing is not ready.
+E0115 10:52:00.497437 14450 pnc_map.cc:267] Route is empty.
+E0115 10:52:00.497560 14450 planning_component.cc:246] routing not ready; skip the planning cycle.
+E0115 10:52:00.497660 14450 planning_component.cc:157] Input check failed
+E0115 10:52:00.527413 14451 reference_line_provider.cc:195] Routing is not ready.
+I0115 10:52:00.573747 14459 planning_component.cc:67] Received routing data: run routing callback.timestamp_sec: 1673751120.5729783
+module_name: "routing"
+sequence_num: 0
+E0115 10:52:00.587246 14461 reference_line_provider.cc:195] Routing is not ready.
+W0115 10:52:00.603132 14451 reference_line_provider.cc:257] Reference line is NOT ready.
+E0115 10:52:00.603143 14451 reference_line_provider.cc:259] Failed to use reference line latest history
+E0115 10:52:00.603157 14451 on_lane_planning.cc:189] Failed to create reference line
+E0115 10:52:00.603205 14451 on_lane_planning.cc:354] PLANNING_ERROR: Failed to create reference line
+E0115 10:52:08.805558 14461 piecewise_jerk_problem.cc:105] failed optimization status:	primal infeasible
+E0115 10:52:08.805593 14461 piecewise_jerk_path_optimizer.cc:318] piecewise jerk path optimizer failed
+E0115 10:52:08.805601 14461 piecewise_jerk_path_optimizer.cc:320] dl bound2 jerk bound0.0260684
+E0115 10:52:08.805696 14461 piecewise_jerk_path_optimizer.cc:327] lat boundary, ddl boundary , path reference
+-2.42772 1.54611,-0.288576 0.107161,0
+-2.28164 1.6446,-0.291298 0.104439,0
+-2.14851 1.74638,-0.293073 0.102664,0
+-2.04186 1.83296,-0.29488 0.100857,0
+-1.96291 1.90362,-0.297609 0.0981285,0
+-1.89362 1.97675,-0.299407 0.0963299,0
+-1.88199 2.00449,-0.301158 0.0945793,0
+-1.89862 2.01613,-0.302829 0.0929084,0
+-1.94358 2.01142,-0.304384 0.0913526,0
+-2.01758 1.98926,-0.305786 0.0899505,0
+-2.11929 1.95036,-0.306994 0.0887428,0
+-2.28292 1.85903,-0.30835 0.0873873,0
+-2.47348 1.74994,-0.30826 0.0874772,0
+-2.36374 1.74221,-0.305303 0.0904337,0
+-2.16701 1.8073,-0.30154 0.0941972,0
+-1.9998 1.85846,-0.297987 0.0977498,0
+-1.86312 1.89988,-0.294692 0.101045,0
+-1.76128 1.92772,-0.291689 0.104048,0
+-1.68898 1.94924,-0.288998 0.106739,0
+-1.65166 1.95975,-0.28558 0.110157,0
+-1.65079 1.95825,-0.283722 0.112015,0
+-1.69196 1.93939,-0.282202 0.113535,0
+-1.7615 1.91653,-0.281019 0.114718,0
+-1.85953 1.88439,-0.280171 0.115566,0
+-1.89667 1.88905,-0.279653 0.116084,0
+-1.85506 1.93201,-0.279461 0.116276,0
+-1.83562 1.9556,-0.27959 0.116147,0
+-1.83157 1.96665,-0.280034 0.115703,0
+-1.85533 1.9527,-0.280789 0.114948,0
+-1.89825 1.9223,-0.281846 0.113891,0
+-1.96197 1.87372,-0.283198 0.112539,0
+-2.04904 1.80448,-0.284832 0.110905,0
+-2.15389 1.71969,-0.286673 0.109064,0
+-2.21716 1.63842,-0.288222 0.107515,0
+-2.14097 1.64814,-0.289739 0.105998,0
+-2.08955 1.66154,-0.291413 0.104324,0
+-2.06937 1.66654,-0.293219 0.102518,0
+-2.08302 1.66053,-0.295127 0.10061,0
+-2.13953 1.63415,-0.2971 0.0986375,0
+-2.22151 1.60406,-0.298776 0.0969607,0
+-2.31049 1.55469,-0.298172 0.0975654,0
+-2.21867 1.6116,-0.295663 0.100074,0
+-2.11566 1.68452,-0.29186 0.103877,0
+-2.02761 1.75069,-0.289477 0.10626,0
+-1.97667 1.78765,-0.287262 0.108475,0
+-1.96368 1.79464,-0.285245 0.110492,0
+-1.97265 1.78791,-0.283449 0.112288,0
+-2.00958 1.76135,-0.281894 0.113843,0
+-2.06622 1.72324,-0.280593 0.115144,0
+-2.15355 1.66228,-0.279555 0.116182,0
+-2.26187 1.58742,-0.278783 0.116954,0
+-2.32466 1.51531,-0.278115 0.117622,0
+-2.16923 1.56444,-0.277538 0.118199,0
+-2.02507 1.62237,-0.277171 0.118566,0
+-1.9038 1.67536,-0.27702 0.118717,0
+-1.81462 1.7146,-0.277089 0.118648,0
+I0115 10:54:45.756515 14458 planning_component.cc:67] Received routing data: run routing callback.timestamp_sec: 1673751285.7561994
+module_name: "routing"
+sequence_num: 1
+E0115 10:54:45.800796 14455 trajectory_stitcher.cc:197] the distance between matched point and actual position is too large. Replan is triggered. lat_diff = -371.78
+E0115 10:54:45.803169 14455 reference_line_info.cc:94] Ego vehicle is too far away from reference line.
+E0115 10:54:45.803185 14455 frame.cc:195] Failed to init reference line
+E0115 10:54:45.803189 14455 frame.cc:335] Failed to init reference line info.
+E0115 10:54:45.803196 14455 on_lane_planning.cc:218] failed to init frame:PLANNING_ERROR: Failed to init reference line info.
+E0115 10:54:45.803332 14455 on_lane_planning.cc:354] PLANNING_ERROR: Failed to init reference line info.
+E0115 10:54:45.897729 14457 trajectory_stitcher.cc:197] the distance between matched point and actual position is too large. Replan is triggered. lat_diff = -371.78
+E0115 10:54:45.900108 14457 reference_line_info.cc:94] Ego vehicle is too far away from reference line.
+E0115 10:54:45.900125 14457 frame.cc:195] Failed to init reference line
+E0115 10:54:45.900130 14457 frame.cc:335] Failed to init reference line info.
+E0115 10:54:45.900137 14457 on_lane_planning.cc:218] failed to init frame:PLANNING_ERROR: Failed to init reference line info.
+E0115 10:54:45.900292 14457 on_lane_planning.cc:354] PLANNING_ERROR: Failed to init reference line info.
+E0115 10:54:45.998028 14459 trajectory_stitcher.cc:197] the distance between matched point and actual position is too large. Replan is triggered. lat_diff = -371.78
+W0115 10:54:46.097698 14458 trajectory_stitcher.cc:156] current time smaller than the previous trajectory's first time
+W0115 10:54:46.197688 14446 trajectory_stitcher.cc:156] current time smaller than the previous trajectory's first time

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michen/Documents/Apollo_learning/code_detail/mytest/mysql_ln/test01/src/testmysqllib.cpp
+iostream
+-
+memory
+-
+thread
+-
+string
+-
+cmath
+-
+cmath
+-
+mysql/mysql.h
+-
+algorithm
+-
+

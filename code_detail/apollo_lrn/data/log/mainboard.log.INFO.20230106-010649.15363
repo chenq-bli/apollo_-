@@ -1,0 +1,54 @@
+Log file created at: 2023/01/06 01:06:49
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0106 01:06:49.719625 15363 scheduler_factory.cc:63] Scheduler conf named /apollo/cyber/conf/monitor.conf not found, use default.
+I0106 01:06:49.719877 15366 processor.cc:42] processor_tid: 15366
+I0106 01:06:49.720057 15367 processor.cc:42] processor_tid: 15367
+I0106 01:06:49.720113 15368 processor.cc:42] processor_tid: 15368
+I0106 01:06:49.720141 15369 processor.cc:42] processor_tid: 15369
+I0106 01:06:49.720227 15370 processor.cc:42] processor_tid: 15370
+I0106 01:06:49.720314 15371 processor.cc:42] processor_tid: 15371
+I0106 01:06:49.720381 15372 processor.cc:42] processor_tid: 15372
+I0106 01:06:49.720453 15373 processor.cc:42] processor_tid: 15373
+I0106 01:06:49.720492 15374 processor.cc:42] processor_tid: 15374
+I0106 01:06:49.720562 15375 processor.cc:42] processor_tid: 15375
+I0106 01:06:49.720703 15376 processor.cc:42] processor_tid: 15376
+I0106 01:06:49.720830 15377 processor.cc:42] processor_tid: 15377
+I0106 01:06:49.720897 15378 processor.cc:42] processor_tid: 15378
+I0106 01:06:49.720945 15379 processor.cc:42] processor_tid: 15379
+I0106 01:06:49.721077 15380 processor.cc:42] processor_tid: 15380
+I0106 01:06:49.721127 15363 init.cc:113] Register exit handle succ.
+I0106 01:06:49.721128 15381 processor.cc:42] processor_tid: 15381
+I0106 01:06:49.721773 15363 module_controller.cc:65] Start initialize dag: /apollo/modules/monitor/dag/monitor.dag
+I0106 01:06:49.722271 15363 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/monitor/libmonitor.so
+I0106 01:06:50.023926 15363 timer.cc:137] start timer [0]
+I0106 01:06:50.524318 15389 scheduler.cc:55] create croutine: /internal/task0
+I0106 01:06:50.524381 15389 scheduler.cc:55] create croutine: /internal/task1
+I0106 01:06:50.524394 15389 scheduler.cc:55] create croutine: /internal/task2
+I0106 01:06:50.524401 15389 scheduler.cc:55] create croutine: /internal/task3
+I0106 01:06:50.524408 15389 scheduler.cc:55] create croutine: /internal/task4
+I0106 01:06:50.524428 15389 scheduler.cc:55] create croutine: /internal/task5
+I0106 01:06:50.524437 15389 scheduler.cc:55] create croutine: /internal/task6
+I0106 01:06:50.524449 15389 scheduler.cc:55] create croutine: /internal/task7
+I0106 01:06:50.524456 15389 scheduler.cc:55] create croutine: /internal/task8
+I0106 01:06:50.524474 15389 scheduler.cc:55] create croutine: /internal/task9
+I0106 01:06:50.524482 15389 scheduler.cc:55] create croutine: /internal/task10
+I0106 01:06:50.524638 15389 scheduler.cc:55] create croutine: /internal/task11
+I0106 01:06:50.524718 15389 scheduler.cc:55] create croutine: /internal/task12
+I0106 01:06:50.524730 15389 scheduler.cc:55] create croutine: /internal/task13
+I0106 01:06:50.524739 15389 scheduler.cc:55] create croutine: /internal/task14
+I0106 01:06:50.524744 15389 scheduler.cc:55] create croutine: /internal/task15
+I0106 01:06:50.526163 15378 scheduler.cc:55] create croutine: monitor_/apollo/hmi/status
+I0106 01:06:51.528780 15375 scheduler.cc:55] create croutine: monitor_/apollo/canbus/chassis
+I0106 01:06:51.529752 15375 scheduler.cc:55] create croutine: monitor_/apollo/sensor/gnss/best_pose
+I0106 01:06:51.531212 15375 scheduler.cc:55] create croutine: monitor_/apollo/localization/msf_status
+I0106 01:06:51.534313 15375 scheduler.cc:55] create croutine: monitor_/apollo/common/latency_records
+I0106 01:06:51.535586 15375 scheduler.cc:55] create croutine: monitor_/apollo/sensor/lidar128/compensator/PointCloud2
+W0106 01:07:16.030122 15389 rate.cc:96] Detect forward jumps in time
+W0106 01:07:37.628356 15389 rate.cc:96] Detect forward jumps in time
+W0106 01:07:37.685534 15389 rate.cc:96] Detect forward jumps in time
+W0106 01:08:05.526154 15389 rate.cc:96] Detect forward jumps in time
+W0106 01:08:06.027271 15389 rate.cc:96] Detect forward jumps in time
+W0106 01:08:07.026908 15389 rate.cc:96] Detect forward jumps in time
+I0106 01:08:07.061161 15363 timer.cc:144] stop timer, the timer_id: 0
+I0106 01:08:07.061295 15363 mainboard.cc:45] exit mainboard.

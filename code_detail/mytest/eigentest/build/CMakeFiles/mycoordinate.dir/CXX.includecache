@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/eigentest.h
+iostream
+-
+stdio.h
+-
+unistd.h
+-
+string
+-
+Eigen/Core
+-
+Eigen/Dense
+-
+
+/home/michen/Documents/Apollo_learning/code_detail/mytest/eigentest/src/coordinate_transformation.cpp
+eigentest.h
+/home/michen/Documents/Apollo_learning/code_detail/mytest/eigentest/src/eigentest.h
+

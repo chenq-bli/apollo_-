@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall  -rdynamic CMakeFiles/MySOLIDER_node.dir/src/testmysqllib.cpp.o  -o ../MySOLIDER_node  -lpthread -lmysqlclient 

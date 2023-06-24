@@ -1,0 +1,205 @@
+Log file created at: 2023/01/04 20:23:13
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0104 20:23:13.687904 54998 class_loader_utility.h:79] registerclass:RoutingComponent,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/routing/librouting_component.so
+I0104 20:23:13.695497 54998 routing_component.cc:35] Config file: /apollo/modules/routing/conf/routing_config.pb.txt is loaded.
+I0104 20:23:13.701798 54998 routing.cc:40] Use routing topology graph path: /apollo/modules/map/data/sunnyvale_with_two_offices/routing_map.bin
+I0104 20:23:13.819455 54998 topo_graph.cc:83] Load Topo data successful.
+I0104 20:23:13.819479 54998 navigator.cc:111] The navigator is ready.
+I0104 20:23:15.803119 54998 routing.cc:55] Routing service is ready.
+I0104 20:24:08.606842 55002 routing.cc:318] Get new routing request:header {
+  timestamp_sec: 1672835048.6058571
+  module_name: "dreamview"
+  sequence_num: 0
+}
+waypoint {
+  id: "229_1_-1"
+  s: 19.287071927224673
+  pose {
+    x: 586212.00865536428
+    y: 4140135.8824493052
+  }
+}
+waypoint {
+  id: "229_1_-1"
+  s: 113.05971700235861
+  pose {
+    x: 586304.78714160854
+    y: 4140123.0465960037
+  }
+}
+I0104 20:24:08.607025 55002 navigator.cc:38] Way point:	lane id: 229_1_-1 s: 19.2871 x: 586212 y: 4.14014e+06 length: 149.617
+I0104 20:24:08.607033 55002 navigator.cc:38] Way point:	lane id: 229_1_-1 s: 113.06 x: 586305 y: 4.14012e+06 length: 149.617
+I0104 20:24:08.607393 55002 a_star_strategy.cc:229] Start A* search algorithm.
+I0104 20:24:08.607517 55002 navigator.cc:85] Route lane id	is virtual	start s	end s
+I0104 20:24:08.607519 55002 navigator.cc:87] 229_1_-1	0	19.2871	113.06
+I0104 20:30:52.964670 55012 routing.cc:318] Get new routing request:header {
+  timestamp_sec: 1672835452.9643323
+  module_name: "dreamview"
+  sequence_num: 1
+}
+waypoint {
+  id: "229_1_-1"
+  s: 117.05967913843038
+  pose {
+    x: 586308.75620420894
+    y: 4140121.9152757353
+  }
+}
+waypoint {
+  id: "229_1_-1"
+  s: 143.18318688806517
+  pose {
+    x: 586334.80253331759
+    y: 4140123.9989818432
+  }
+}
+I0104 20:30:52.964815 55012 navigator.cc:38] Way point:	lane id: 229_1_-1 s: 117.06 x: 586309 y: 4.14012e+06 length: 149.617
+I0104 20:30:52.964824 55012 navigator.cc:38] Way point:	lane id: 229_1_-1 s: 143.183 x: 586335 y: 4.14012e+06 length: 149.617
+I0104 20:30:52.965168 55012 a_star_strategy.cc:229] Start A* search algorithm.
+I0104 20:30:52.965282 55012 navigator.cc:85] Route lane id	is virtual	start s	end s
+I0104 20:30:52.965286 55012 navigator.cc:87] 229_1_-1	0	117.06	143.183
+I0104 20:31:48.164384 55008 routing.cc:318] Get new routing request:header {
+  timestamp_sec: 1672835508.1640155
+  module_name: "dreamview"
+  sequence_num: 2
+}
+waypoint {
+  id: "229_1_-1"
+  s: 107.97664512972524
+  pose {
+    x: 586299.69264087942
+    y: 4140122.8320436291
+  }
+}
+waypoint {
+  id: "229_1_-1"
+  s: 142.57456276071278
+  pose {
+    x: 586334.258949889
+    y: 4140123.3829176323
+  }
+}
+I0104 20:31:48.164527 55008 navigator.cc:38] Way point:	lane id: 229_1_-1 s: 107.977 x: 586300 y: 4.14012e+06 length: 149.617
+I0104 20:31:48.164535 55008 navigator.cc:38] Way point:	lane id: 229_1_-1 s: 142.575 x: 586334 y: 4.14012e+06 length: 149.617
+I0104 20:31:48.164880 55008 a_star_strategy.cc:229] Start A* search algorithm.
+I0104 20:31:48.164996 55008 navigator.cc:85] Route lane id	is virtual	start s	end s
+I0104 20:31:48.165000 55008 navigator.cc:87] 229_1_-1	0	107.977	142.575
+I0104 20:32:11.526746 55009 routing.cc:318] Get new routing request:header {
+  timestamp_sec: 1672835531.5264003
+  module_name: "dreamview"
+  sequence_num: 3
+}
+waypoint {
+  id: "229_1_-1"
+  s: 137.46781882338215
+  pose {
+    x: 586329.13392237434
+    y: 4140123.2957833079
+  }
+}
+waypoint {
+  id: "406_1_-1"
+  s: 3.2474134530667911
+  pose {
+    x: 586720.34251678456
+    y: 4140272.8914859197
+  }
+}
+I0104 20:32:11.526942 55009 navigator.cc:38] Way point:	lane id: 229_1_-1 s: 137.468 x: 586329 y: 4.14012e+06 length: 149.617
+I0104 20:32:11.526957 55009 navigator.cc:38] Way point:	lane id: 406_1_-1 s: 3.24741 x: 586720 y: 4.14027e+06 length: 7.40403
+I0104 20:32:11.527429 55009 a_star_strategy.cc:229] Start A* search algorithm.
+I0104 20:32:11.527897 55009 navigator.cc:85] Route lane id	is virtual	start s	end s
+I0104 20:32:11.527906 55009 navigator.cc:87] 229_1_-1	0	137.468	149.617
+I0104 20:32:11.527915 55009 navigator.cc:87] 282_1_-1	0	0	20.1185
+I0104 20:32:11.527920 55009 navigator.cc:87] 231_1_-2	0	0	10.5733
+I0104 20:32:11.527923 55009 navigator.cc:87] 1267_1_-2	0	0	9.43782
+I0104 20:32:11.527928 55009 navigator.cc:87] 371_1_-1	0	0	30.0627
+I0104 20:32:11.527932 55009 navigator.cc:87] 368_1_-1	0	0	15.2844
+I0104 20:32:11.527936 55009 navigator.cc:87] 449_1_-1	0	0	230.728
+I0104 20:32:11.527942 55009 navigator.cc:87] 868_1_-1	0	0	36.4701
+I0104 20:32:11.527946 55009 navigator.cc:87] 1705a_1_-1	0	0	32.6496
+I0104 20:32:11.527951 55009 navigator.cc:87] 697_1_-1	0	0	22.5216
+I0104 20:32:11.527954 55009 navigator.cc:87] 429_1_-1	0	0	8.59458
+I0104 20:32:11.527958 55009 navigator.cc:87] 9944_1_-1	0	0	14.4416
+I0104 20:32:11.527962 55009 navigator.cc:87] 406_1_-1	0	0	3.24741
+I0104 22:36:31.938957 55011 routing.cc:318] Get new routing request:header {
+  timestamp_sec: 1672842991.9382041
+  module_name: "dreamview"
+  sequence_num: 0
+}
+waypoint {
+  id: "9989_1_-4"
+  s: 10.250010727134114
+  pose {
+    x: 586134.0597768781
+    y: 4140053.3533946695
+  }
+}
+waypoint {
+  id: "9985_1_-2"
+  s: 9.7142113164119213
+  pose {
+    x: 586225.80835519289
+    y: 4140099.7932390049
+  }
+}
+I0104 22:36:31.939157 55011 navigator.cc:38] Way point:	lane id: 9989_1_-4 s: 10.25 x: 586134 y: 4.14005e+06 length: 46.715
+I0104 22:36:31.939172 55011 navigator.cc:38] Way point:	lane id: 9985_1_-2 s: 9.71421 x: 586226 y: 4.1401e+06 length: 32.5557
+I0104 22:36:31.940078 55011 a_star_strategy.cc:229] Start A* search algorithm.
+E0104 22:36:31.940140 55011 a_star_strategy.cc:323] Failed to find goal lane with id: 9985_1_-2
+E0104 22:36:31.940157 55011 navigator.cc:187] Failed to search route with waypoint from 9989_1_-4 to 9985_1_-2
+E0104 22:36:31.940286 55011 navigator.cc:80] Failed to find route with request!
+E0104 22:36:31.940299 55011 routing.cc:340] Failed to search route with navigator.
+I0104 22:37:08.501598 55014 routing.cc:318] Get new routing request:header {
+  timestamp_sec: 1672843028.5011604
+  module_name: "dreamview"
+  sequence_num: 1
+}
+waypoint {
+  id: "9989_1_-4"
+  s: 10.250010727134114
+  pose {
+    x: 586134.0597768781
+    y: 4140053.3533946695
+  }
+}
+waypoint {
+  id: "9989_1_-4"
+  s: 37.741237817781574
+  pose {
+    x: 586130.203687426
+    y: 4140026.0842932756
+  }
+}
+I0104 22:37:08.501816 55014 navigator.cc:38] Way point:	lane id: 9989_1_-4 s: 10.25 x: 586134 y: 4.14005e+06 length: 46.715
+I0104 22:37:08.501832 55014 navigator.cc:38] Way point:	lane id: 9989_1_-4 s: 37.7412 x: 586130 y: 4.14003e+06 length: 46.715
+I0104 22:37:08.502991 55014 a_star_strategy.cc:229] Start A* search algorithm.
+I0104 22:37:08.503214 55014 navigator.cc:85] Route lane id	is virtual	start s	end s
+I0104 22:37:08.503222 55014 navigator.cc:87] 9989_1_-4	0	10.25	37.7412
+I0104 22:37:46.421615 55003 routing.cc:318] Get new routing request:header {
+  timestamp_sec: 1672843066.4212055
+  module_name: "dreamview"
+  sequence_num: 2
+}
+waypoint {
+  id: "229_1_-1"
+  s: 40.487995782755348
+  pose {
+    x: 586233.16537998582
+    y: 4140133.8723065662
+  }
+}
+waypoint {
+  id: "229_1_-1"
+  s: 99.565082133399315
+  pose {
+    x: 586291.30210234912
+    y: 4140123.3619263335
+  }
+}
+I0104 22:37:46.421831 55003 navigator.cc:38] Way point:	lane id: 229_1_-1 s: 40.488 x: 586233 y: 4.14013e+06 length: 149.617
+I0104 22:37:46.421845 55003 navigator.cc:38] Way point:	lane id: 229_1_-1 s: 99.5651 x: 586291 y: 4.14012e+06 length: 149.617
+I0104 22:37:46.422318 55003 a_star_strategy.cc:229] Start A* search algorithm.
+I0104 22:37:46.422497 55003 navigator.cc:85] Route lane id	is virtual	start s	end s
+I0104 22:37:46.422505 55003 navigator.cc:87] 229_1_-1	0	40.488	99.5651

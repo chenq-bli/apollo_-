@@ -1,0 +1,50 @@
+Log file created at: 2023/01/15 10:49:34
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0115 10:49:34.765113 12045 class_loader_utility.h:79] registerclass:Monitor,apollo::cyber::ComponentBase,/apollo/bazel-bin/modules/monitor/libmonitor.so
+E0115 10:49:35.285902 12050 monitor_manager.cc:54] No HMIStatus was received.
+E0115 10:49:35.783154 12060 monitor_manager.cc:54] No HMIStatus was received.
+I0115 10:49:36.287963 12055 recurrent_runner.cc:30] EsdCanMonitor is running round #1
+I0115 10:49:49.285447 12048 recurrent_runner.cc:30] SummaryMonitor is running round #27
+I0115 10:50:02.783577 12050 recurrent_runner.cc:30] ChannelMonitor is running round #6
+I0115 10:50:16.793078 12062 recurrent_runner.cc:30] ModuleMonitor is running round #23
+I0115 10:50:29.792663 12056 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #108
+I0115 10:50:44.285482 12059 recurrent_runner.cc:30] GpsMonitor is running round #22
+I0115 10:50:57.785324 12063 recurrent_runner.cc:30] EsdCanMonitor is running round #26
+I0115 10:51:11.285127 12049 recurrent_runner.cc:30] ChannelMonitor is running round #19
+I0115 10:51:25.290560 12053 recurrent_runner.cc:30] ModuleMonitor is running round #60
+I0115 10:51:38.285162 12051 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #245
+I0115 10:51:52.283166 12050 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #273
+I0115 10:52:06.285190 12059 recurrent_runner.cc:30] EsdCanMonitor is running round #47
+I0115 10:52:19.785138 12056 recurrent_runner.cc:30] GpsMonitor is running round #51
+I0115 10:52:33.285152 12062 recurrent_runner.cc:30] SummaryMonitor is running round #355
+I0115 10:52:47.289420 12062 recurrent_runner.cc:30] ModuleMonitor is running round #105
+I0115 10:53:00.787951 12055 recurrent_runner.cc:30] ModuleMonitor is running round #113
+I0115 10:53:14.285144 12053 recurrent_runner.cc:30] GpsMonitor is running round #68
+I0115 10:53:28.285102 12060 recurrent_runner.cc:30] GpsMonitor is running round #72
+I0115 10:53:41.783155 12060 recurrent_runner.cc:30] SummaryMonitor is running round #492
+I0115 10:53:55.785133 12050 recurrent_runner.cc:30] EsdCanMonitor is running round #80
+I0115 10:54:08.788107 12063 recurrent_runner.cc:30] SummaryMonitor is running round #546
+I0115 10:54:22.288491 12050 recurrent_runner.cc:30] ChannelMonitor is running round #55
+I0115 10:54:36.285151 12058 recurrent_runner.cc:30] SocketCanMonitor is running round #92
+I0115 10:54:49.289937 12057 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #627
+I0115 10:55:03.288283 12063 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #655
+I0115 10:55:17.285094 12048 recurrent_runner.cc:30] SummaryMonitor is running round #683
+I0115 10:55:30.292003 12055 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #709
+I0115 10:55:44.285123 12054 recurrent_runner.cc:30] ProcessMonitor is running round #205
+I0115 10:55:58.285154 12049 recurrent_runner.cc:30] SummaryMonitor is running round #765
+I0115 10:56:11.791998 12056 recurrent_runner.cc:30] ModuleMonitor is running round #220
+I0115 10:56:25.285182 12057 recurrent_runner.cc:30] ResourceMonitor is running round #78
+I0115 10:56:39.785112 12063 recurrent_runner.cc:30] ProcessMonitor is running round #235
+I0115 10:56:52.787894 12055 recurrent_runner.cc:30] SummaryMonitor is running round #874
+I0115 10:57:07.285272 12052 recurrent_runner.cc:30] SocketCanMonitor is running round #137
+I0115 10:57:20.289162 12061 recurrent_runner.cc:30] ModuleMonitor is running round #257
+I0115 10:57:34.285465 12054 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #957
+I0115 10:57:48.285100 12054 recurrent_runner.cc:30] SummaryMonitor is running round #985
+I0115 10:58:02.283211 12063 recurrent_runner.cc:30] SummaryMonitor is running round #1013
+I0115 10:58:15.290385 12060 recurrent_runner.cc:30] SummaryMonitor is running round #1039
+I0115 10:58:29.285144 12059 recurrent_runner.cc:30] SummaryMonitor is running round #1067
+I0115 10:58:42.785367 12052 recurrent_runner.cc:30] FunctionalSafetyMonitor is running round #1094
+I0115 10:58:56.783131 12051 recurrent_runner.cc:30] ProcessMonitor is running round #310
+I0115 10:59:10.285260 12053 recurrent_runner.cc:30] GpsMonitor is running round #174
+I0115 10:59:23.783372 12048 recurrent_runner.cc:30] EsdCanMonitor is running round #178

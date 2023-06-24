@@ -1,0 +1,45 @@
+Log file created at: 2023/01/15 10:51:21
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0115 10:51:21.990846 14660 scheduler_factory.cc:63] Scheduler conf named /apollo/cyber/conf/mainboard_default.conf not found, use default.
+I0115 10:51:21.990969 14662 processor.cc:42] processor_tid: 14662
+I0115 10:51:21.991027 14663 processor.cc:42] processor_tid: 14663
+I0115 10:51:21.991075 14664 processor.cc:42] processor_tid: 14664
+I0115 10:51:21.991109 14665 processor.cc:42] processor_tid: 14665
+I0115 10:51:21.991151 14666 processor.cc:42] processor_tid: 14666
+I0115 10:51:21.991180 14667 processor.cc:42] processor_tid: 14667
+I0115 10:51:21.991204 14668 processor.cc:42] processor_tid: 14668
+I0115 10:51:21.991227 14669 processor.cc:42] processor_tid: 14669
+I0115 10:51:21.991251 14670 processor.cc:42] processor_tid: 14670
+I0115 10:51:21.991293 14671 processor.cc:42] processor_tid: 14671
+I0115 10:51:21.991333 14672 processor.cc:42] processor_tid: 14672
+I0115 10:51:21.991354 14673 processor.cc:42] processor_tid: 14673
+I0115 10:51:21.991379 14674 processor.cc:42] processor_tid: 14674
+I0115 10:51:21.991400 14675 processor.cc:42] processor_tid: 14675
+I0115 10:51:21.991425 14676 processor.cc:42] processor_tid: 14676
+I0115 10:51:21.991448 14677 processor.cc:42] processor_tid: 14677
+I0115 10:51:21.991457 14660 init.cc:113] Register exit handle succ.
+I0115 10:51:21.991873 14660 module_controller.cc:65] Start initialize dag: /apollo/modules/routing/dag/routing.dag
+I0115 10:51:21.991922 14660 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/routing/librouting_component.so
+I0115 10:51:22.134436 14660 timer.cc:137] start timer [0]
+E0115 10:51:22.339463 14682 node_manager.cc:101] this process will be terminated due to duplicated node[routing], please ensure that each node has a unique name.
+I0115 10:51:23.134757 14685 scheduler.cc:55] create croutine: /internal/task0
+I0115 10:51:23.134826 14685 scheduler.cc:55] create croutine: /internal/task1
+I0115 10:51:23.134845 14685 scheduler.cc:55] create croutine: /internal/task2
+I0115 10:51:23.134856 14685 scheduler.cc:55] create croutine: /internal/task3
+I0115 10:51:23.134865 14685 scheduler.cc:55] create croutine: /internal/task4
+I0115 10:51:23.134883 14685 scheduler.cc:55] create croutine: /internal/task5
+I0115 10:51:23.134893 14685 scheduler.cc:55] create croutine: /internal/task6
+I0115 10:51:23.134903 14685 scheduler.cc:55] create croutine: /internal/task7
+I0115 10:51:23.134928 14685 scheduler.cc:55] create croutine: /internal/task8
+I0115 10:51:23.134946 14685 scheduler.cc:55] create croutine: /internal/task9
+I0115 10:51:23.134955 14685 scheduler.cc:55] create croutine: /internal/task10
+I0115 10:51:23.134963 14685 scheduler.cc:55] create croutine: /internal/task11
+I0115 10:51:23.134970 14685 scheduler.cc:55] create croutine: /internal/task12
+I0115 10:51:23.134989 14685 scheduler.cc:55] create croutine: /internal/task13
+I0115 10:51:23.134997 14685 scheduler.cc:55] create croutine: /internal/task14
+I0115 10:51:23.135005 14685 scheduler.cc:55] create croutine: /internal/task15
+I0115 10:51:24.207342 14660 scheduler.cc:55] create croutine: routing_/apollo/routing_request
+I0115 10:51:24.207772 14660 scheduler.cc:55] create croutine: routing
+I0115 10:51:24.207949 14660 timer.cc:144] stop timer, the timer_id: 0
+I0115 10:51:24.228575 14660 mainboard.cc:45] exit mainboard.

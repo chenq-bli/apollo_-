@@ -1,0 +1,50 @@
+Log file created at: 2023/01/04 22:35:41
+Running on machine: in-dev-docker
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0104 22:35:41.060885 73382 scheduler_factory.cc:63] Scheduler conf named /apollo/cyber/conf/monitor.conf not found, use default.
+I0104 22:35:41.061050 73385 processor.cc:42] processor_tid: 73385
+I0104 22:35:41.061188 73386 processor.cc:42] processor_tid: 73386
+I0104 22:35:41.061225 73387 processor.cc:42] processor_tid: 73387
+I0104 22:35:41.061254 73388 processor.cc:42] processor_tid: 73388
+I0104 22:35:41.061288 73389 processor.cc:42] processor_tid: 73389
+I0104 22:35:41.061327 73390 processor.cc:42] processor_tid: 73390
+I0104 22:35:41.061372 73391 processor.cc:42] processor_tid: 73391
+I0104 22:35:41.061466 73392 processor.cc:42] processor_tid: 73392
+I0104 22:35:41.061532 73393 processor.cc:42] processor_tid: 73393
+I0104 22:35:41.061601 73394 processor.cc:42] processor_tid: 73394
+I0104 22:35:41.061643 73395 processor.cc:42] processor_tid: 73395
+I0104 22:35:41.061668 73396 processor.cc:42] processor_tid: 73396
+I0104 22:35:41.061754 73397 processor.cc:42] processor_tid: 73397
+I0104 22:35:41.061834 73398 processor.cc:42] processor_tid: 73398
+I0104 22:35:41.061853 73399 processor.cc:42] processor_tid: 73399
+I0104 22:35:41.062008 73382 init.cc:113] Register exit handle succ.
+I0104 22:35:41.062011 73400 processor.cc:42] processor_tid: 73400
+I0104 22:35:41.062305 73382 module_controller.cc:65] Start initialize dag: /apollo/modules/monitor/dag/monitor.dag
+I0104 22:35:41.062340 73382 class_loader.cc:37] Begin LoadLibrary: /apollo/bazel-bin/modules/monitor/libmonitor.so
+I0104 22:35:41.249328 73382 timer.cc:137] start timer [0]
+I0104 22:35:41.749716 73408 scheduler.cc:55] create croutine: /internal/task0
+I0104 22:35:41.749795 73408 scheduler.cc:55] create croutine: /internal/task1
+I0104 22:35:41.749826 73408 scheduler.cc:55] create croutine: /internal/task2
+I0104 22:35:41.749853 73408 scheduler.cc:55] create croutine: /internal/task3
+I0104 22:35:41.749876 73408 scheduler.cc:55] create croutine: /internal/task4
+I0104 22:35:41.749912 73408 scheduler.cc:55] create croutine: /internal/task5
+I0104 22:35:41.750114 73408 scheduler.cc:55] create croutine: /internal/task6
+I0104 22:35:41.750146 73408 scheduler.cc:55] create croutine: /internal/task7
+I0104 22:35:41.750170 73408 scheduler.cc:55] create croutine: /internal/task8
+I0104 22:35:41.750195 73408 scheduler.cc:55] create croutine: /internal/task9
+I0104 22:35:41.750214 73408 scheduler.cc:55] create croutine: /internal/task10
+I0104 22:35:41.750234 73408 scheduler.cc:55] create croutine: /internal/task11
+I0104 22:35:41.750253 73408 scheduler.cc:55] create croutine: /internal/task12
+I0104 22:35:41.750272 73408 scheduler.cc:55] create croutine: /internal/task13
+I0104 22:35:41.750312 73408 scheduler.cc:55] create croutine: /internal/task14
+I0104 22:35:41.750406 73408 scheduler.cc:55] create croutine: /internal/task15
+I0104 22:35:41.751605 73399 scheduler.cc:55] create croutine: monitor_/apollo/hmi/status
+I0104 22:35:42.754245 73394 scheduler.cc:55] create croutine: monitor_/apollo/canbus/chassis
+I0104 22:35:42.755134 73394 scheduler.cc:55] create croutine: monitor_/apollo/sensor/gnss/best_pose
+I0104 22:35:42.756610 73394 scheduler.cc:55] create croutine: monitor_/apollo/localization/msf_status
+I0104 22:35:42.760532 73394 scheduler.cc:55] create croutine: monitor_/apollo/common/latency_records
+I0104 22:35:42.761086 73394 scheduler.cc:55] create croutine: monitor_/apollo/sensor/lidar128/compensator/PointCloud2
+W0104 22:35:57.753741 73408 rate.cc:96] Detect forward jumps in time
+W0104 22:36:13.071830 73408 rate.cc:96] Detect forward jumps in time
+I0104 22:38:16.509387 73382 timer.cc:144] stop timer, the timer_id: 0
+I0104 22:38:16.509498 73382 mainboard.cc:45] exit mainboard.

@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall -g  -rdynamic CMakeFiles/template_example_node.dir/src/main.cpp.o CMakeFiles/template_example_node.dir/src/template_vec.cpp.o  -o template_example_node 

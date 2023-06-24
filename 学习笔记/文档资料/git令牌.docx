@@ -1,0 +1,9 @@
+1.git令牌：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
+2.workbench 用户名：mc_db 数据库：michen_db 密码：db190717db
+3.workbench 用户名：michen 数据库：全部 密码：db190717db
+利用：
+create user 'fzq'@'%' identified by  'qwer1234';
+grant all privileges on *.* to 'fzq'@'%' with grant option;
+flush privileges;
+进行添加用户，添加用户后才能workbench输入qwer1234密码登入。
+参考：https://blog.csdn.net/weixin_46584887/article/details/121432061

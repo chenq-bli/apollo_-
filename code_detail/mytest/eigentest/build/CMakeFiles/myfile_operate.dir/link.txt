@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -Wall  -rdynamic CMakeFiles/myfile_operate.dir/src/file_operate.cpp.o  -o myfile_operate 
